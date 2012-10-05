@@ -1,0 +1,12 @@
+@import "grid";
+@import "typography";
+@import "header";
+@import "footer";
+@import "variables";
+
+
+#page-info {
+	height: 200px;
+	padding: 15px;
+	background: lighten($color1, 10%);
+}

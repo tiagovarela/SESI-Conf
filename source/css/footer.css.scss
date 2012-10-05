@@ -1,0 +1,13 @@
+@import "susy";
+@import "typography";
+
+footer {
+	background: #f0f0f0;
+	margin-top: 20px;
+	padding: 30px 0 50px 0;
+	.zone {
+		width: 21%;
+		margin: 2%;
+		float: left;
+	}
+}

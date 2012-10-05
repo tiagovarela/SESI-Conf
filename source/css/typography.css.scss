@@ -1,0 +1,56 @@
+@import "compass";
+@import "variables";
+
+
+@import url("http://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700,800,900,600italic,900italic,500italic,400italic,300italic,200italic,100italic,700italic,800italic");
+
+
+@mixin main-font {
+ 	font-family: 'Exo', Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	@include main-font;
+}
+
+h1,h2,h3,h4,h5,h6, p {
+	color: #5a5a5a;
+}
+
+@mixin headingsFont{
+	@include main-font;
+	font-weight: 700;
+}
+
+@mixin navFont($height) {
+	@include headingsFont;
+	line-height: $height;
+	text-transform:uppercase;
+}
+
+
+html {
+	$base-font-size: 14px;
+	$base-line-height: 24px;
+	@include establish-baseline;
+	// @include debug-vertical-alignment;
+}
+
+footer {
+	h6 {
+		margin: 0;
+		height: 0;
+		font-size: 12px;
+		line-height: 0px;
+		font-weight: 600;
+		color: $color1;
+		text-transform:uppercase;
+	}
+
+	p {
+		line-height: 19px;
+		font-size: 11px;
+		font-weight: 400;
+		color: #999;
+	}	
+}

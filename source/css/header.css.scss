@@ -1,0 +1,25 @@
+@import "susy";
+@import "typography";
+@import "variables";
+
+header {
+	$height: 40px;
+	height: $height;
+	background: $color1;
+	nav {
+		height: $height;
+		ul {
+			height: $height;
+			@include inline-block-list(2%);
+			li {
+				height: $height;
+				@include navFont($height);
+				a { 
+					@include unstyled-link;
+					@include link-colors(lighten($color1, 60%), rgb(255,255,255)); 
+				}
+			}
+		}
+	}
+}
+	

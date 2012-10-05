@@ -21,6 +21,7 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -34,13 +35,36 @@
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
   <header>
-
+    <div class="wrapper">
+      <nav>
+        <ul>
+          <li><a href="#">Conference</a></li>
+          <li><a href="#">Schedule</a></li>
+          <li><a href="#">Guide</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <div role="main">
-
+    <%= yield %>
   </div>
   <footer>
-
+    <div class="wrapper">
+      <section class="zone">
+        <h6>Mailing List</h6>
+        <p>Sign up if you would like to receive receive occasional updates from Build.</p>
+      </section>
+      <section class="zone">
+        <h6>Twitter</h6>
+        <p>Sign up if you would like to receive receive occasional updates from Build.</p>
+      </section>
+      <section class="zone">
+        <h6>Misc</h6>
+        <p>Sign up if you would like to receive receive occasional updates from Build.</p>
+      </section>
+      <section class="zone">
+      </section>
+    </div>
   </footer>
 
 
