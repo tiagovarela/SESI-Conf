@@ -2,7 +2,8 @@
 @import "typography";
 
 footer {
-	background: #f0f0f0;
+	@include background(url('../img/footer-noisy-texture2.png'));
+	//background: #f0f0f0;
 	margin-top: 20px;
 	padding: 30px 0 50px 0;
 	.zone {
@@ -10,4 +11,5 @@ footer {
 		margin: 2%;
 		float: left;
 	}
+	p, span { color: #ddd; }
 }

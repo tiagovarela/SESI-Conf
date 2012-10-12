@@ -3,23 +3,50 @@
 @import "variables";
 
 header {
-	$height: 40px;
-	height: $height;
-	background: $color1;
+	@include background(url('../img/feup-noisy-texture.png'));
+	height: 200px;
+	section.top-info {
+		width: 100%;
+		clear: both;
+		padding: 20px 0;
+		span {
+			@include arvo;
+			font-size: 10px;
+			line-height: 18px;
+			color: white;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+	}
 	nav {
+		$height: 25px;
+		width: 100%;
 		height: $height;
+		margin-top: 50px;
 		ul {
 			height: $height;
-			@include inline-block-list(2%);
+			@include inline-block-list;
 			li {
+				$padding: 30px;
 				height: $height;
-				@include navFont($height);
-				a { 
+				padding: 0 $padding;
+				@include headerFontStyle($height);
+				&:first-child { text-align: left; padding: 0 $padding/2 0 0; }
+				a {
 					@include unstyled-link;
-					@include link-colors(lighten($color1, 60%), rgb(255,255,255)); 
+					@include link-colors(white, white, white, white, white); 
+					@include border-radius(3px);
+					@include text-shadow(0px 1px 1px #555);
+					letter-spacing: 2px;
+					padding: 5px 7px;
+					@include transition-property(background);
+  				@include transition-duration(.3s);
+					&:hover, &.active { background: rgba(255,255,255,0.5); }
+					&:active { position: relative; top: 2px; } // COOL TRICK: Links Feel Subtly More Button-Like!!
 				}
 			}
 		}
 	}
+
 }
 	

@@ -48,9 +48,7 @@ page "index.html", :layout => "layout"
 # end
 
 set :css_dir, 'css'
-
 set :js_dir, 'js'
-
 set :images_dir, 'img'
 
 # Build-specific configuration
