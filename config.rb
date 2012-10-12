@@ -18,7 +18,12 @@ require 'susy'
 # Per-page layout changes:
 # 
 # With no layout
-page "index.html", :layout => "layout"
+with_layout :layout do
+  page "index"
+  page "guide"
+end
+# page "index.html", :layout => "layout"
+# page "guide.html", :layout => "layout"
 # 
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
