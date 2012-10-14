@@ -21,9 +21,13 @@
 }
 
 * { color: #333; }
+h1, h2, h3, h4, h5, h6, p, a, li, span {
+	text-shadow:0 0 0 #f00, 0 0 1px transparent;
+	text-rendering: optimizeLegibility;
+}
 
 h1, h2, h3, h4, h5, h6 {
-	@include exo;
+	@include arvo;
 	font-weight: 400;
 }
 p {
@@ -32,9 +36,9 @@ p {
 }
 
 
-@mixin headerFontStyle($height) {
+@mixin headerFontStyle($height, $font-size: 11px) {
 	@include ubuntu;
-	font-size: 11px;
+	font-size: $font-size;
 	line-height: $height;
 	text-transform:uppercase;
 }

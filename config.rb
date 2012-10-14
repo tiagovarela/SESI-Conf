@@ -19,7 +19,9 @@ require 'susy'
 # 
 # With no layout
 with_layout :layout do
-  page "index"
+  page "conference"
+  page "registration"
+  page "sponsors"
   page "guide"
 end
 # page "index.html", :layout => "layout"
@@ -46,11 +48,11 @@ end
 # activate :automatic_image_sizes
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def amp
+    '<span class="amp">&#038;</span>'
+  end
+end
 
 set :css_dir, 'css'
 set :js_dir, 'js'

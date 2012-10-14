@@ -1,52 +1,57 @@
-@import "susy";
 @import "typography";
 @import "variables";
 
 header {
 	@include background(url('../img/feup-noisy-texture.png'));
-	height: 200px;
-	section.top-info {
-		width: 100%;
-		clear: both;
-		padding: 20px 0;
-		span {
-			@include arvo;
-			font-size: 10px;
-			line-height: 18px;
-			color: white;
-			text-transform: uppercase;
-			letter-spacing: 2px;
+	height: 140px;
+	padding: 30px 0;
+	// section.top-info {
+	// 	width: 30%;
+	// 	padding: 20px 0;
+	// 	span {
+	// 		@include arvo;
+	// 		font-size: 10px;
+	// 		line-height: 18px;
+	// 		color: white;
+	// 		text-transform: uppercase;
+	// 		letter-spacing: 2px;
+	// 	}
+	// }
+	#logo { 
+		position: absolute;
+    left: 0;
+    right: 0;
+		width: 250px;
+		height: 140px;
+		display: block;
+		background: url(http://placehold.it/250x140) 0 100% no-repeat;
+		text-indent: -9999px;
+		margin: 0 auto;
+		padding: 0px 0 0;
 		}
-	}
-	nav {
-		$height: 25px;
-		width: 100%;
-		height: $height;
+	ul {
+		@include inline-block-list;
 		margin-top: 50px;
-		ul {
-			height: $height;
-			@include inline-block-list;
-			li {
-				$padding: 30px;
-				height: $height;
-				padding: 0 $padding;
-				@include headerFontStyle($height);
-				&:first-child { text-align: left; padding: 0 $padding/2 0 0; }
-				a {
-					@include unstyled-link;
-					@include link-colors(white, white, white, white, white); 
-					@include border-radius(3px);
-					@include text-shadow(0px 1px 1px #555);
-					letter-spacing: 2px;
-					padding: 5px 7px;
-					@include transition-property(background);
-  				@include transition-duration(.3s);
-					&:hover, &.active { background: rgba(255,255,255,0.5); }
-					&:active { position: relative; top: 2px; } // COOL TRICK: Links Feel Subtly More Button-Like!!
-				}
+		li {
+			@include headerFontStyle($navItemHeight);
+			width: $navItemWidth;
+			text-align: center;
+			a {
+				@include unstyled-link;
+				@include link-colors(white, white, white, white, white); 
+				@include border-radius(3px);
+				@include text-shadow(0px 1px 1px #555);
+				letter-spacing: 2px;
+				padding: 5px 7px;
+				@include transition-property(background);
+				@include transition-duration(.3s);
+				&:hover, &.active { background: rgba(255,255,255,0.5); }
+				&:active { position: relative; top: 2px; } // COOL TRICK: Links Feel Subtly More Button-Like!!
 			}
 		}
 	}
-
+	ul.nav-group-one {float: left;}
+	ul.nav-group-two {float: right;}
 }
+
 	

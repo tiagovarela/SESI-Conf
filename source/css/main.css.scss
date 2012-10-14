@@ -9,5 +9,31 @@
 }
 
 body {
-	@include background(url('../img/main-noisy-texture.png'));
+	@include background(url('../img/main-noise-texture-cleaner2.png'));
 }
+
+span.amp {
+  font-family: Baskerville, Palatino, "Book Antiqua", serif;
+  font-style: italic;
+ }
+
+@mixin button-like($font-color: white, $background-color: rgba(255,255,255,0.5), $hover-color: rgba(255,255,255,0.5)) {
+	@include unstyled-link;
+	@include headerFontStyle($navItemHeight, 14px);
+	@include link-colors($font-color, $font-color, $font-color, $font-color, $font-color); 
+	@include border-radius(3px);
+	@include text-shadow(0px 1px 1px #555);
+	color: $font-color; 
+	* {color: $font-color; @include text-shadow(0px 1px 1px #555);} //link can have spans inside
+	padding: 5px 7px;
+	text-align: center;
+	letter-spacing: 2px;
+	background: $background-color;
+	&:hover { background: $hover-color; }
+	&:active { position: relative; top: 2px; } // COOL TRICK: Links Feel Subtly More Button-Like!!
+}
+
+ a.button {
+ 	// @include button-like(white, lighten($color1, 10%), $color1);
+ 	@include button-like(white, #888, #666);
+ }
