@@ -1,0 +1,45 @@
+- hour: "8:00am"
+  title: "If You’re Not Paying for It; You’re the Product!"
+  tags:
+    - "Security"
+    - "Privacy"
+
+  abstract: |
+            Everyday we are offered a load of attractive free services and products,
+            from social networks to free software and games. But behind those services
+            there is always a trade-off  How is your privacy being handled by service
+            providers? What kind of sensitive information are “you” making available for
+            third parties? Can you really guarantee that any of your personal information
+            is never published on the Internet?
+            In this talk we are going to answer these questions by analyzing the
+            privacy policies of the most used services nowadays.
+  authors:
+    - name: "Joel Ferreira"
+      bio: "lorem ipsum ipsum ipsum."
+    - name: "Pedro Pontes"
+      bio: "lorem ipsum ipsum ipsum."
+    - name: "Gonçalo Araújo"
+      bio: "lorem ipsum ipsum ipsum."
+- hour: "8:30am"
+  title: "Gamifying Education"
+  tags:
+    - "Education"
+    - "Games"
+
+  abstract: |
+            Nowadays, our education system is based on a step-by-step evolution
+            that poses our society with a very slow grade of adaptability.
+            Our proposal is to present a complete new way of  teach our students,
+            based on the logic envolved in every strategy game from success points
+            achieved on every single goal to a healthy competition among them based
+            on scores instead of simple grades.  In this system, we could have a
+            much greater success of our education system at the same time we keep
+            evolving into a new ways of thinking.
+            The goal here is to achieve a high level of adaptation to society
+            evolution and needs at the same time we grant them access to new
+            skills to aproach their own success.
+  authors:
+    - name: "João Carvalho"
+      bio: "lorem ipsum ipsum ipsum."
+    - name: "Ricardo Amorim"
+      bio: "lorem ipsum ipsum ipsum."
