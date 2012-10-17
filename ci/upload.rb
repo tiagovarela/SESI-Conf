@@ -4,12 +4,16 @@ require 'net/ftp'
 def upload_path(path, ftp)
   Dir.glob(path+'/**') do |name|
     next if name == '.' or name == '..'
+
     if File.directory? name
+      dir_name = File.basename(name)
+      ftp.mkdir(dir_name)
+      ftp.chdir(dir_name)
       upload_path(name, ftp)
+      ftp.chdir("..")
     else
       #upload file using ftp
-      upload_name = name.gsub(/.*build\//, '')
-      ftp.put(name, upload_name)
+      ftp.put(name)
     end
   end
 end
