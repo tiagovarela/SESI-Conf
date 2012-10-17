@@ -24,6 +24,7 @@ end
 def delete_old_files(ftp)
   ftp.list.each do |name|
     basename = name.gsub(/.* [a-z]{3} [0-9]{1,2} [0-9]{2}:[0-9]{2} /i,'')
+    next if basename == '.' or basename == '..'
     if name =~ /$d.*/i
       ftp.chdir(basename)
       delete_old_files(ftp)
