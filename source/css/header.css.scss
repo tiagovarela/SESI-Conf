@@ -1,10 +1,9 @@
+@import "susy";
 @import "typography";
 @import "variables";
 
 header {
 	@include background(url('../img/feup-noisy-texture.png'));
-	height: 140px;
-	padding: 30px 0;
 	// section.top-info {
 	// 	width: 30%;
 	// 	padding: 20px 0;
@@ -17,24 +16,23 @@ header {
 	// 		letter-spacing: 2px;
 	// 	}
 	// }
-	#logo { 
-		position: absolute;
-    left: 0;
-    right: 0;
-		width: 250px;
-		height: 140px;
-		display: block;
-		background: url(http://placehold.it/250x140) 0 100% no-repeat;
+	#logo {
+		@include at-breakpoint(1em 12) { position: absolute; top: 30px; left: 0; right: 0; }
+		@include at-breakpoint(60em 12) { position: relative; @include span-columns(4,12); background-position: 90% 100%; }
+		background: url(http://placehold.it/250x120) 50% 100% no-repeat;
+		height: $logoHeight;
 		text-indent: -9999px;
-		margin: 0 auto;
-		padding: 0px 0 0;
-		}
+	}
 	ul {
 		@include inline-block-list;
-		margin-top: 50px;
+		@include at-breakpoint(1em 12) { width: 50%; float: left; margin-top: $navMarginSmall; height: $headerHeightSmall; &.nav-group-two { float: right;} }
+		@include at-breakpoint(35em 12) { height: $headerHeightMedium; margin-top: $navMarginMedium; }
+		@include at-breakpoint(60em 12) { width: auto; float: left; height: $headerHeightBig; margin-top: $navMarginBig; }
 		li {
 			@include headerFontStyle($navItemHeight);
-			width: $navItemWidth;
+			@include at-breakpoint(1em 12) { width: 100%; float: left;}
+			@include at-breakpoint(35em 12) { width: 50%; float: left;}
+			@include at-breakpoint(60em 12) { width: $navItemWidth; float: left;}
 			text-align: center;
 			a {
 				@include unstyled-link;
@@ -50,8 +48,6 @@ header {
 			}
 		}
 	}
-	ul.nav-group-one {float: left;}
-	ul.nav-group-two {float: right;}
 }
 
 	
