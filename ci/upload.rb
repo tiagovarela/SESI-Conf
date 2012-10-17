@@ -8,7 +8,8 @@ def upload_path(path, ftp)
     if File.directory? name
       dir_name = File.basename(name)
       list = ftp.list
-      if list.contains? dir_name
+      puts list
+      if list.include? dir_name
         ftp.rmdir(dir_name)
       end
       ftp.mkdir(dir_name)
