@@ -27,7 +27,7 @@ def delete_old_files(ftp)
     next if basename == '.' or basename == '..'
     puts basename
     puts name
-    if /$d.*/i =~ name
+    if /^d.*/i =~ name
       puts "entering dir"
       ftp.chdir(basename)
       delete_old_files(ftp)
