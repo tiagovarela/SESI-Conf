@@ -8,6 +8,7 @@ def upload_path(path, ftp)
     if File.directory? name
       dir_name = File.basename(name)
       list = ftp.list
+      list.map!{ |l| l.gsub!(/.* [a-z]{3} [0-9]{1,2} [0-9]{2}:[0-9]{2} /i,'')}
       puts list
       if list.include? dir_name
         ftp.rmdir(dir_name)
