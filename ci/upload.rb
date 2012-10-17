@@ -10,9 +10,6 @@ def upload_path(path, ftp)
       list = ftp.list
       list.map!{ |l| l.gsub!(/.* [a-z]{3} [0-9]{1,2} [0-9]{2}:[0-9]{2} /i,'')}
       puts list
-      if list.include? dir_name
-        ftp.rmdir(dir_name)
-      end
       ftp.mkdir(dir_name)
       ftp.chdir(dir_name)
       upload_path(name, ftp)
@@ -24,8 +21,22 @@ def upload_path(path, ftp)
   end
 end
 
+def delete_old_files(ftp)
+  ftp.list.each do |name|
+    basename = name.gsub(/.* [a-z]{3} [0-9]{1,2} [0-9]{2}:[0-9]{2} /i,'')
+    if name =~ /$d.*/i
+      ftp.chdir(basename)
+      delete_old_files(ftp)
+      ftp.chdir("..")
+    else
+      ftp.delete(basename)
+    end
+  end
+end
+
 Net::FTP.open(ENV['FTP_ADDRESS'], ENV['FTP_USERNAME'], ENV['FTP_PASSWORD']) do |ftp|
   ftp.passive = true
   ftp.chdir('public_html/sesi/')
+  delete_old_files(ftp)
   upload_path('build', ftp)
 end
