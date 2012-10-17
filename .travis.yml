@@ -5,6 +5,9 @@ script:
   - middleman build
 after_script:
   - ./ci/upload.rb
+branches:
+  only:
+    - master
 env:
   global:
     - secure: "LJ1zNJ1P54VmaB3FCe8G/nSynPfLtTTE29i7/hflkaFoIm+MCldYzRU7Iew1\nMYYJ+t/6vrJC6dtt2fXWQFw4xu3dx/bOEX2Do+mfrB/odWsI0KkIL+HeUj5m\n5asIaNj7ic+U7uyTSzb2LUV8Jekt6LvGfoM7Ors/nbWnkR9mffQ="
