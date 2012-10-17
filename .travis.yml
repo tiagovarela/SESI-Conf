@@ -4,4 +4,9 @@ rvm:
 script:
   - middleman build
 after_script:
+  - ./ci/upload.rb
   - echo "Successful build"
+env:
+  - secure: "LJ1zNJ1P54VmaB3FCe8G/nSynPfLtTTE29i7/hflkaFoIm+MCldYzRU7Iew1\nMYYJ+t/6vrJC6dtt2fXWQFw4xu3dx/bOEX2Do+mfrB/odWsI0KkIL+HeUj5m\n5asIaNj7ic+U7uyTSzb2LUV8Jekt6LvGfoM7Ors/nbWnkR9mffQ="
+  - secure: "KVBJcux4cgtGkK6BUTIi+nLjBZnPeDotyktsz4+NuqkbQnw3lvCBln68hR9A\n3qEhA+fv1kaq6MZKYGbKqTEQUcY6TwJemWNf5vJIkKPXRR1LUBpGDpoGNHr4\nnXKCGyORx5KdWT3mCkBA9R5EnipfqPIKnKYNWnhgprhNECGO2tE="
+  - secure: "dpyAYQmibp2x26esBcuq4dk6G0IE/8tvupW+K2XnA5QN9KCMldMKZnRtXIQ6\nRTgGy4hKQxM7OSYEyF9sSpmZJvVw4jR5i6Q0eCRUJQxQb2zt3s3L4RuOAfxA\nclobGM/22koZsonxIxwhwfQerwzl7UoVhX4iXDegfScABn7cl44="
