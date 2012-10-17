@@ -31,6 +31,7 @@ def delete_old_files(ftp)
       puts "entering dir"
       ftp.chdir(basename)
       delete_old_files(ftp)
+      ftp.rmdir(basename)
       ftp.chdir("..")
     else
       puts "deleting file"
