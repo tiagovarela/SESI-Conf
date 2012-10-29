@@ -1,0 +1,23 @@
+@import "variables";
+@import "typography";
+
+
+section.spot-category {
+	@include span-columns(12,12);
+	margin-bottom: 50px;
+	span.category-tittle { 
+		float: left; 
+		width: 15%; 
+		margin-right: 5%; 
+		@include arvo;
+		font-size: 18px;
+		color: $color1;
+
+	}
+	article.spot {
+		float: left;
+		width: 25%;
+		margin-right: 2.5%;
+		&:last-child { margin-right: 0%; }
+	}
+}
