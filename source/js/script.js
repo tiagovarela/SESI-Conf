@@ -46,13 +46,21 @@ function addMarkersInit(){
 };
 
 function addMarkers(i, markers){
+
 	new google.maps.Marker({
 		position: markers[i].pos,
 		title: markers[i].name,
 		map: map,
 		draggable: false,
-		animation: google.maps.Animation.DROP
-	})
+		animation: google.maps.Animation.DROP,
+		icon: new google.maps.MarkerImage(
+    	'../img/custom-marker.png',
+    	new google.maps.Size(34,40),    // size of the image
+    	new google.maps.Point(0,0), // origin, in this case top-left corner
+    	new google.maps.Point(0, 38)    // anchor, i.e. the point half-way along the bottom of the image
+		})
+	});
+
 	if( i < markers.length - 1){
 		setTimeout(function(){addMarkers(i+1, markers);}, 300);
 	}
