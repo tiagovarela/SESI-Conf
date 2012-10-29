@@ -52,7 +52,7 @@ function addMarkers(i, markers){
 		draggable: false,
 		animation: google.maps.Animation.DROP,
 		icon: new google.maps.MarkerImage(
-    	'../img/custom-marker.png',
+    	'../img/custom-marker-yellow.png',
     	new google.maps.Size(34,40),    // size of the image
     	new google.maps.Point(0,0), // origin, in this case top-left corner
     	new google.maps.Point(0, 38)    // anchor, i.e. the point half-way along the bottom of the image
