@@ -2,11 +2,12 @@
 require 'net/ftp'
 
 def delete_files(ftp)
+  puts "Deleting:"
   ftp.list.each do |name|
     basename = name.gsub(/.* [a-z]{3}( ){1,2}[0-9]{1,2}( ){1,2}[0-9]{2}:[0-9]{2} /i,'')
     next if basename == '.' or basename == '..'
 
-    print basename
+    puts basename
     
     if /^d.*/i =~ name
       ftp.chdir(basename)
@@ -20,6 +21,7 @@ def delete_files(ftp)
 end
 
 def upload_files(path, ftp)
+  puts "Uploading:"
   Dir.glob(path+'/**') do |name|
     next if name == '.' or name == '..'
 
@@ -30,6 +32,7 @@ def upload_files(path, ftp)
       upload_files(name, ftp)
       ftp.chdir("..")
     else
+      puts name
       ftp.put(name)
     end
   end
