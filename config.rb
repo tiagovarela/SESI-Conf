@@ -58,11 +58,11 @@ helpers do
   end
 
   def support_mailto
-    "mailto:larry,dan?bcc=joao.castrofigueiredo@gmail.com, vogait@gmail.com&subject=Talk+a+Bit+Sponsorship"
+    "mailto:talkabit.team@gmail.com?subject=Talk+a+Bit+Sponsorship"
   end
 
   def food_and_beverages_mailto
-    "mailto:larry,dan?bcc=joao.castrofigueiredo@gmail.com, vogait@gmail.com&subject=Talk+a+Bit+Food+and+Beverages+Support"
+    "mailto:talkabit.team@gmail.com?subject=Talk+a+Bit+Food+and+Beverages+Support"
   end
 
   def eventbrite_registration
