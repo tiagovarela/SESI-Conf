@@ -3,7 +3,7 @@ require 'net/ftp'
 
 def delete_files(ftp)
   ftp.list.each do |name|
-    basename = name.gsub(/.* [a-z]{3} [0-9]{1,2} [0-9]{2}:[0-9]{2} /i,'')
+    basename = name.gsub(/.* [a-z]{3} [0-9]{1,2}( ){1,2}[0-9]{2}:[0-9]{2} /i,'')
     next if basename == '.' or basename == '..'
 
     print basename
