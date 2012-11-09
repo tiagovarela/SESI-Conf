@@ -5,6 +5,8 @@ def delete_files(ftp)
   ftp.list.each do |name|
     basename = name.gsub(/.* [a-z]{3} [0-9]{1,2} [0-9]{2}:[0-9]{2} /i,'')
     next if basename == '.' or basename == '..'
+
+    print basename
     
     if /^d.*/i =~ name
       ftp.chdir(basename)
