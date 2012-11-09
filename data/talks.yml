@@ -15,11 +15,22 @@
             privacy policies of the most used services nowadays.
   authors:
     - name: "Joel Ferreira"
-      bio: "lorem ipsum ipsum ipsum."
+      image: "gen.jpg"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
     - name: "Pedro Pontes"
-      bio: "lorem ipsum ipsum ipsum."
+      image: "ambe.png"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
     - name: "Gonçalo Araújo"
-      bio: "lorem ipsum ipsum ipsum."
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
 - hour: "8:30am"
   title: "Gamifying Education"
   tags:

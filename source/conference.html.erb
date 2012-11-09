@@ -1,33 +1,50 @@
 <section class="wrapper">
 	<div style="width: 80%; margin: auto 10%; text-align: center;">
-		<h1>Schedule, Speakers <%= amp %> Talks</h1>
+		<h1>Schedule, Speakers <%= amp %> Talks: All-in-One</h1>
 		<p>This is the road plan for our conference. We are very proud of the talks presented here and their speakers. Special thanks to the guest speakers who were invited to talk and set aside some of their personal time. Enjoy! </p>
 		<img src="img/schedule-explanation.png">
 	</div>
 	<h2>Schedule</h2>
-	<table>
-		<tbody>
-			<% data.talks.each do |talk| %>
-			<tr>
-				<td style="padding-right: 1em;">
-					<h3><%= talk.hour %></h3>
-					<p><%= talk.tags.join("<br>") %></p>
-				</td>
-				<td style="background: url('../img/feup-noisy-texture.png'); width: 1em;"><p>&nbsp;</p></td>
-				<td style="padding-left: 1em;">
-					<h3><%= talk.title %></h3>
-					<p><%= talk.abstract %></p>
-					<div style="float: left;">
-						<% talk.authors.each do |author| %>
-						<div style="display: inline-block;<%= ' border-left: 1px solid #333; margin-left: 0.5em; padding-left: 0.5em;' unless author == talk.authors.first %>">
-							<h4 style="margin-top: 0;"><%= author.name %></h4>
-							<p><%= author.bio %></p>
+	
+
+	<section id="timeline-wrapper">
+		<% data.talks.each do |talk| %>
+		<article class="talk">
+			<div class="timeline-sidebar">
+				<h3><%= talk.hour %></h3>
+				<p><%= talk.tags.join("<br>") %></p>
+			</div>
+			<div class="talk-mainwrapper">
+				<h3><%= talk.title %></h3>
+				<p><%= talk.abstract %></p>
+
+				<section class="authors-wrapper">
+					<% talk.authors.each do |author| %>
+					<article class="author">
+						<div class="author-image">
+							<% if author.image %>
+								<img src="./img/speakers/<%= author.image %>" width="50">
+							<% else %>
+								<img src="./img/speakers/gen.jpg" width="50">
+							<% end %>
+							
 						</div>
-						<% end %>
-					</div>
-				</td>
-			</tr>
-			<% end %>
-		</tbody>
-	</table>
+						<div class="author-data">
+							<span><%= author.name %></span><br>
+							<% if author.social %>
+								<% author.social.each do |s| %>
+									<%= place_img("20x20") if s.twitter %>	
+									<%= place_img("20x20") if s.facebook %>	
+									<%= place_img("20x20") if s.linkedin %>	
+								<% end %>
+							<% end %>
+						</div>
+					</article>
+					<% end %>
+				</section>
+			</div>
+		</article>
+		<% end %>
+	</section>
+	
 </section>

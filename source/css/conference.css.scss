@@ -1,0 +1,44 @@
+section#timeline-wrapper {
+
+
+	article.talk {
+
+		div.timeline-sidebar {
+			background: green;
+			width: 15%;
+			float: left;
+			padding-right: 10px;
+		}
+		div.talk-mainwrapper {
+			width: 75%;
+			float: left;
+			@include clearfix;
+			border-left: 20px solid rgba(0,0,100,0.4); 
+			margin-left: -25px;
+			padding-left: 30px;
+		}
+	}
+}
+
+
+section.authors-wrapper {
+	article.author {
+		float: left;
+		width: 30%;
+		margin-right: 5%;
+		margin-bottom: 15px;
+		&:nth-child(3n) {margin-right: 0;}
+
+		div.author-image {
+			width: 50px;
+			display: inline-block;
+			vertical-align: top;
+		}
+		div.author-data {
+			display: inline-block;
+			padding-left: 15px;
+			@include clearfix;
+			img { float: left; margin: 0 3px; }
+		}
+	}
+}

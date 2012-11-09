@@ -52,6 +52,35 @@ helpers do
   def amp
     '<span class="amp">&#038;</span>'
   end
+
+  def place_img(size)
+    '<img src=' + lorem.image(size) + ">"
+  end
+
+  def support_mailto
+    "mailto:larry,dan?bcc=joao.castrofigueiredo@gmail.com, vogait@gmail.com&subject=Talk+a+Bit+Sponsorship"
+  end
+
+  def food_and_beverages_mailto
+    "mailto:larry,dan?bcc=joao.castrofigueiredo@gmail.com, vogait@gmail.com&subject=Talk+a+Bit+Food+and+Beverages+Support"
+  end
+
+  def eventbrite_registration
+    %{
+      <div style="width:100%; text-align:left;" >
+        <iframe  src="http://talkabit.eventbrite.com?ref=eweb" frameborder="0" height="1000" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true">
+        </iframe>
+
+        <div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" >
+          <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/eweb">Event Registration Online</a>
+          <span style="color:#ddd;"> for </span>
+          <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://http://talkabit.eventbrite.com?ref=eweb">Talk a Bit</a>
+          <span style="color:#ddd;">powered by</span>
+          <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=eweb">Eventbrite</a>
+        </div>
+      </div>
+    }
+  end
 end
 
 set :css_dir, 'css'
