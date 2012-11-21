@@ -1,0 +1,22 @@
+article.square-highlight {
+	width: 220px;
+	height: 115px;
+	float: left;
+	margin: 5px;
+	// background: rgba(0,0,0,0.3);
+	// background: url('http://marketing.unimelb.edu.au/images/homepage-icons/web.jpg') no-repeat;
+	text-align: center;
+	padding-top: 45px; 
+
+	h1 {
+		color: rgb(255,255,255);	
+		@include text-shadow( rgba(0,0,0, 0.4) 2px 2px 0);
+		@include transition-property(all);
+  	@include transition-duration(.1s);
+		&:hover { @include rotate(-5deg); }
+	}	
+}
+
+.bg1 { background: url('http://media.journals.elsevier.com/content/images/main/editorial-volume-30-26153236.jpg') no-repeat; }
+.bg2 { background: url('http://marketing.unimelb.edu.au/images/homepage-icons/web.jpg') no-repeat; }
+.bg3 { background: url('http://www.gssc.net/wp-content/uploads/image/binary.jpg') no-repeat; }
