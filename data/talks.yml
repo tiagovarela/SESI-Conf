@@ -1,4 +1,6 @@
-- hour: "8:00am"
+- from: "8:00am"
+  until: "8:30am"
+  type: talk
   title: "If You’re Not Paying for It; You’re the Product!"
   tags:
     - "Security"
@@ -31,7 +33,9 @@
         - twitter: jferreira
         - facebook: jferreira
         - linkedin: jferreira
-- hour: "8:30am"
+- from: "8:30am"
+  until: "9:00am"
+  type: talk
   title: "Gamifying Education"
   tags:
     - "Education"
@@ -54,3 +58,6 @@
       bio: "lorem ipsum ipsum ipsum."
     - name: "Ricardo Amorim"
       bio: "lorem ipsum ipsum ipsum."
+- from: "9:00am"
+  until: "9:30am"
+  type: coffeebreak

@@ -1,23 +1,31 @@
 section#timeline-wrapper {
-
-
-	article.talk {
-
+	article.entry {
 		div.timeline-sidebar {
-			background: green;
 			width: 15%;
 			float: left;
-			padding-right: 10px;
+			padding: 0 10px;
 		}
-		div.talk-mainwrapper {
+		div.entry-mainwrapper {
+			@include clearfix;
 			width: 75%;
 			float: left;
-			@include clearfix;
 			border-left: 20px solid rgba(0,0,100,0.4); 
-			margin-left: -25px;
+			margin-left: -20px;
 			padding-left: 30px;
 		}
 	}
+}
+
+.tag { 
+	@include border-radius(5px);
+	@include background(linear-gradient(top, #aaa, #a5a5a5));
+	@include text-shadow(rgba(#333, 0.3) 1px 1px 0);
+	@include arvo;
+	padding: 3px 6px;
+	margin: 0 3px;
+	font-size: 12px;
+	color: #eee;
+	&:first-child { margin-left: 10px; }
 }
 
 
@@ -42,3 +50,6 @@ section.authors-wrapper {
 		}
 	}
 }
+
+.coffeebreak { > * { background: rgba(0,0,0,0.1); }}
+
