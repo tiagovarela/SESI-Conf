@@ -1,0 +1,38 @@
+<div class="timeline-sidebar">
+	<h6><%= talk.from %> - <%= talk.until %></h6>
+</div>
+<div class="entry-mainwrapper talk">
+	<h3>
+		<%= talk.title %>
+		<% talk.tags.each do |tag| %>
+			<span class="tag"><%= tag %></span>
+		<% end %>
+	</h3>
+	
+	<p><%= talk.abstract %></p>
+
+	<section class="authors-wrapper">
+	<% talk.authors.each do |author| %>
+		<article class="author">
+			<div class="author-image">
+				<% if author.image %>
+					<img src="./img/speakers/<%= author.image %>" width="50">
+				<% else %>
+					<img src="./img/speakers/gen.jpg" width="50">
+				<% end %>
+				
+			</div>
+			<div class="author-data">
+				<span><%= author.name %></span><br>
+				<% if author.social %>
+					<% author.social.each do |s| %>
+						<%= place_img("20x20") if s.twitter %>	
+						<%= place_img("20x20") if s.facebook %>	
+						<%= place_img("20x20") if s.linkedin %>	
+					<% end %>
+				<% end %>
+			</div>
+		</article>
+	<% end %>
+	</section>
+</div>

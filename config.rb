@@ -81,6 +81,24 @@ helpers do
       </div>
     }
   end
+
+  def eventbrite_minimal
+    %{
+      <div style="width:50%; margin: 0 auto; text-align:left;" >
+        <iframe  
+          src="http://www.eventbrite.com/tickets-external?eid=4798698035&ref=etckt&v=2" 
+          frameborder="0" 
+          height="230" 
+          width="100%" 
+          vspace="0" 
+          hspace="0" 
+          marginheight="5" 
+          marginwidth="5" 
+          scrolling="auto" 
+          allowtransparency="true">
+        </iframe>
+    }
+  end
 end
 
 set :css_dir, 'css'
