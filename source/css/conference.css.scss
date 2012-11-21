@@ -9,8 +9,8 @@ section#timeline-wrapper {
 			@include clearfix;
 			width: 75%;
 			float: left;
-			border-left: 20px solid rgba(0,0,100,0.4); 
-			margin-left: -20px;
+			border-left: $borderSize solid rgba(0,0,0,0.4); 
+			margin-left: -$borderSize;
 			padding-left: 30px;
 		}
 	}
