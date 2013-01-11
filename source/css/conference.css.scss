@@ -1,9 +1,12 @@
 section#timeline-wrapper {
+	overflow: hidden;
 	article.entry {
+		overflow: hidden;
 		div.timeline-sidebar {
 			width: 15%;
 			float: left;
 			padding: 0 10px;
+			overflow: hidden;
 		}
 		div.entry-mainwrapper {
 			@include clearfix;
@@ -12,8 +15,11 @@ section#timeline-wrapper {
 			border-left: $borderSize solid rgba(0,0,0,0.4); 
 			margin-left: -$borderSize;
 			padding-left: 30px;
+			overflow: hidden;
 		}
 	}
+	.talk { background: rgba(red, 0.1);}
+	.coffeebreak { background: rgba(blue, 0.1);}
 }
 
 .tag { 

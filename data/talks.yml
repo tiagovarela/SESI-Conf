@@ -189,6 +189,10 @@
         - facebook: jferreira
         - linkedin: jferreira
 
+- from: "17:15pm"
+  until: "17:30pm"
+  type: coffeebreak
+
 - from: "17:30pm"
   until: "17:45pm"
   type: talk
@@ -304,8 +308,3 @@
         - twitter: jferreira
         - facebook: jferreira
         - linkedin: jferreira
-
-
-- from: "17:15pm"
-  until: "17:30pm"
-  type: coffeebreak
