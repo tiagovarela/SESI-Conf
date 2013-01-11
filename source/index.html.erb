@@ -4,17 +4,28 @@
 		<p>Our website is not quite ready yet. Meanwhile, fell free to surf our contents.</p>
 	</div>
 	
-	<div style="width: 80%; margin: auto 10%; text-align: center;">
-		<h3>Themes <%= amp %> Speakers</h3>
-		<% data.themes.each do |t| %>
-		<article class="square-highlight bg<%= Random.rand(3)+1 %>">
-			<h1><%= t %></h1>
-		</article>
-		<% end %>
+	<div style="width: 90%; margin: 5% auto;">
+		<h2>Themes <%= amp %> Speakers</h2>
+
+		<div id="mosaic-wrapper" style="width:90%; margin:0 auto;">
+			<div class="box mosaic-box1 bg1"><h1>MOOC</h1></div>
+			<div class="box mosaic-box2 bg2"><h2>Services</h2></div>
+			<div class="box mosaic-box1 bg6"><h1>Crowdfunding</h1></div>
+			<div class="box mosaic-box2 bg4"><h2>Serious Games</h2></div>
+			<div class="box mosaic-box2 bg5"><h2>Data Privacy</h2></div>
+			<div class="box mosaic-box2 bg3"><h2>Security</h2></div>
+
+			<div class="box mosaic-box2 bg6"></div>
+			<div class="box mosaic-box1 bg3"></div>
+			<div class="box mosaic-box1 bg4"></div>
+			<div class="box mosaic-box2 bg6"></div>
+			<div class="box mosaic-box2 bg2"></div>
+			<div class="box mosaic-box3 bg5"></div>
+		</div>
+
 		<%# 9.times do %>
 			<!-- <img src="<%#= lorem.image('220x160') %>" style="margin: 5px;"> -->
 		<%# end %>
 	</div>
-	
 
 </div>

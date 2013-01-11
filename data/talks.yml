@@ -1,20 +1,207 @@
-- from: "8:00am"
-  until: "8:30am"
+- from: "14:00pm"
+  until: "14:15pm"
   type: talk
-  title: "If You’re Not Paying for It; You’re the Product!"
+  title: "Opening"
   tags:
-    - "Security"
-    - "Privacy"
+    - "Let's get this party started!"
+
+  abstract: ""
+  authors:
+    - name: "Raul Vidal"
+      image: "gen.jpg"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
+
+- from: "14:15pm"
+  until: "14:30pm"
+  type: talk
+  title: "Your idea, their money"
+  tags:
+    - "Crowdfunding"
+    - "Money"
+    - "Network"
 
   abstract: |
-            Everyday we are offered a load of attractive free services and products,
-            from social networks to free software and games. But behind those services
-            there is always a trade-off  How is your privacy being handled by service
-            providers? What kind of sensitive information are “you” making available for
-            third parties? Can you really guarantee that any of your personal information
-            is never published on the Internet?
-            In this talk we are going to answer these questions by analyzing the
-            privacy policies of the most used services nowadays.
+            We will expose the concept behind crowd funding networks. The talk will cover topics ranging from 5/6 good examples of success projects (and respective networks) to explaining how you can become one of them with your idea, and their money.
+  authors:
+    - name: "Hélder Moreira"
+      image: "gen.jpg"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
+    - name: "Tiago Babo"
+      image: "gen.jpg"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
+
+- from: "14:30pm"
+  until: "15:00pm"
+  type: talk
+  title: "TBA -- Your idea, their money"
+  tags:
+    - "Crowdfunding"
+    - "Money"
+    - "Network"
+
+  abstract: |
+            TBA -- Tabletip Games
+  authors:
+    - name: "Marco Vala"
+      image: "gen.jpg"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
+
+- from: "15:00pm"
+  until: "15:15pm"
+  type: talk
+  title: "Information everywhere, systems in your pocket"
+  tags:
+    - "Information Systems"
+    - "IT"
+    - "Technologies"
+
+  abstract: |
+            Don't you know what IT are? So why do you let them be part of your life? Why do you let them change your company? 
+            We will show the importance of Information Technologies in your day-life and IT's key role in the success of modern organizations and decision making.
+            How much information have you right now in your pocket?
+  authors:
+    - name: "Luís Gomes"
+      image: "gen.jpg"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
+    - name: "Luís Dias"
+      image: "gen.jpg"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
+
+- from: "15:15pm"
+  until: "15:45pm"
+  type: talk
+  title: "TBA -- Services"
+  tags:
+    - "TBA"
+
+  abstract: |
+            TBA
+  authors:
+    - name: "João Falcão e Cunha"
+      image: "gen.jpg"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
+
+- from: "15:45pm"
+  until: "16:00pm"
+  type: talk
+  title: "Born to be wise"
+  tags:
+    - "MOOC"
+    - "Education"
+    - "Life-long learning"
+
+  abstract: |
+            Education has always been a hot discussion topic. Recently there’s a lot of fuss on how can we disrupt education; don’t sit down because it’s happening now! 
+            This talk will focus on Massive Open Online Courses (MOOC), starting from their origins, their depth when compared with traditional learning tools (schools), and why we think they will change education and life-long learning.
+            Our personal goal is to encourage the audience to embrace MOOC and try them as soon as they find a computer available.
+  authors:
+    - name: "João Figueiredo"
+      image: "gen.jpg"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
+    - name: "Tiago Varela"
+      image: "gen.jpg"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
+
+- from: "16:00pm"
+  until: "16:30pm"
+  type: talk
+  title: "Software Engineering and Quality"
+  tags:
+    - "Software Quality"
+
+  abstract: |
+            TBA
+  authors:
+    - name: "Luís Desport"
+      image: "gen.jpg"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
+
+- from: "16:30pm"
+  until: "16:45pm"
+  type: talk
+  title: "Gamifying Education"
+  tags:
+    - "Gamification"
+    - "Serious Games"
+    - "Changing Education"
+
+  abstract: |
+            Nowadays, our education system is based on a step-by-step evolution that poses our society with a very slow grade of adaptability. Our proposal is to present a complete new way of teach our students, based on the logic envolved in every strategy game from success points achieved on every single goal to a healthy competition among them based on scores instead of simple grades. In this system, we could have a much greater success of our education system at the same time we keep evolving into a new ways of thinking. 
+            The goal here is to achieve a high level of adaptation to society evolution and needs at the same time we grant them access to new skills to aproach their own success.
+  authors:
+    - name: "João Carvalho"
+      image: "gen.jpg"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
+    - name: "Ricardo Amorim"
+      image: "gen.jpg"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
+
+- from: "16:45pm"
+  until: "17:15pm"
+  type: talk
+  title: "TBA -- Gamification"
+  tags:
+    - "Gamification"
+
+  abstract: |
+            TBA
+  authors:
+    - name: "Norberto Amaral"
+      image: "gen.jpg"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
+
+- from: "17:30pm"
+  until: "17:45pm"
+  type: talk
+  title: "If you’re not paying for it; you are the product!"
+  tags:
+    - "Data Privacy"
+    - "Privacy Policies"
+    - "Terms of Service"
+    - "Free Services' trade-off"
+
+  abstract: |
+            Everyday we are offered a load of attractive free services and products, from social networks to free software and games. But behind those services there is always a trade-off: How is your privacy being handled by service providers? What kind of sensitive information are “you” making available for third parties? Can you really guarantee that any of your personal information is never published on the Internet?
+            In this talk we are going to answer these questions by analyzing the privacy policies of the most used services nowadays.
   authors:
     - name: "Joel Ferreira"
       image: "gen.jpg"
@@ -33,31 +220,92 @@
         - twitter: jferreira
         - facebook: jferreira
         - linkedin: jferreira
-- from: "8:30am"
-  until: "9:00am"
+
+- from: "17:45pm"
+  until: "18:15pm"
   type: talk
-  title: "Gamifying Education"
+  title: "TBA -- Data privacy."
   tags:
-    - "Education"
-    - "Games"
+    - "Data Privacy"
+    - "Privacy Policies"
+    - "Terms of Service"
+    - "Free Services' trade-off"
 
   abstract: |
-            Nowadays, our education system is based on a step-by-step evolution
-            that poses our society with a very slow grade of adaptability.
-            Our proposal is to present a complete new way of  teach our students,
-            based on the logic envolved in every strategy game from success points
-            achieved on every single goal to a healthy competition among them based
-            on scores instead of simple grades.  In this system, we could have a
-            much greater success of our education system at the same time we keep
-            evolving into a new ways of thinking.
-            The goal here is to achieve a high level of adaptation to society
-            evolution and needs at the same time we grant them access to new
-            skills to aproach their own success.
+            TBA
   authors:
-    - name: "João Carvalho"
-      bio: "lorem ipsum ipsum ipsum."
-    - name: "Ricardo Amorim"
-      bio: "lorem ipsum ipsum ipsum."
-- from: "9:00am"
-  until: "9:30am"
+    - name: "Graça Costa"
+      image: "gen.jpg"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
+
+- from: "18:15pm"
+  until: "18:30pm"
+  type: talk
+  title: "Marketing Challenges in Web 2.0"
+  tags:
+    - "Social Marketing"
+    - "Web 2.0"
+    - "Social Networks"
+
+  abstract: |
+            In this talk, we will analyze in what way the Web 2.0 and social networks in particular have changed companies marketing plans in the past few years, ie, understand why is it so important for companies to be on facebook and other social networks, analyze cases of success and failure and from that draw some conclusions about the best practices that companies should follow.
+  authors:
+    - name: "André Marinho"
+      image: "gen.jpg"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
+    - name: "João Ferreira"
+      image: "gen.jpg"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
+
+- from: "18:30pm"
+  until: "19:00pm"
+  type: talk
+  title: "TBA"
+  tags:
+    - "TBA"
+
+  abstract: |
+            TBA
+  authors:
+    - name: "Alexey Sidorenko"
+      image: "gen.jpg"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
+
+- from: "19:90pm"
+  until: "19:15pm"
+  type: talk
+  title: "Closing Remarks"
+  tags:
+    - "Farewell Talk a Bit 2013"
+
+  abstract: ""
+  authors:
+    - name: "Raul Vidal"
+      image: "gen.jpg"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
+    - name: "Ademar Aguiar"
+      image: "gen.jpg"
+      social:
+        - twitter: jferreira
+        - facebook: jferreira
+        - linkedin: jferreira
+
+
+- from: "17:15pm"
+  until: "17:30pm"
   type: coffeebreak

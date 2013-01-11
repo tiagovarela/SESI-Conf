@@ -1,4 +1,15 @@
+$(function(){
+  $('#timeline-wrapper article.entry:nth-child(odd)').addClass('darker');
+});
+
 $(function() {
+	$('#mosaic-wrapper').masonry({
+        // options
+        itemSelector: '.box',
+        isFitWidth: true,
+        columnWidth: 129
+    });
+
 	$.each($('header nav ul li a'), function(index, value) {
 		if($(value).attr('href') === window.location.pathname) {
 			$(value).addClass('active');
@@ -6,17 +17,12 @@ $(function() {
 	});
 	//add active class to current page header link
 	var pathname = window.location.pathname.replace('/','').replace('.html','');
-	$('header ul li a#'+pathname).addClass('active');
+	$("header ul li a#"+pathname).addClass('active');
 	
 	var map;
 	initMap();
-	
-
 
 });
-
-
-
 
 initMap = function() {
 	mapOptions = {

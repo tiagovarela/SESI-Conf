@@ -1,0 +1,61 @@
+$width_1: 256px;
+$width_2: 0.5 * $width_1;
+$width_3: 0.25 * $width_1;
+$width_4: 0.0625 * $width_1;
+
+$height_ratio: 3/4;
+$height_1: $width_1 * $height_ratio + 1;
+$height_2: $width_2 * $height_ratio;
+$height_3: $width_3 * $height_ratio;
+$height_4: $width_4 * $height_ratio;
+
+#mosaic-wrapper {
+	width: 100%;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+
+.box {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1px;
+	padding: 0;
+	@include border-radius(2px);
+	float: left;
+
+	text-align: center;
+	h1, h2 {
+		margin: 0;
+		padding: 0;
+		color: rgb(255,255,255);	
+		@include text-shadow( rgb(0,0,0) 3px 3px 8px);
+		display: inline-block;
+		vertical-align: middle;
+	}
+	
+}
+
+.mosaic-box1 {
+	width: $width_1;
+	height: $height_1;
+//	background-size: $width_1 $height_1;
+}
+
+.mosaic-box2 {
+	width: $width_2;
+	height: $height_2;
+//	background-size: $width_2 $height_2;
+}
+
+.mosaic-box3 {
+	width: $width_3;
+	height: $height_3;
+//	background-size: $width_3 $height_3;
+}
+
+.mosaic-box4 {
+	width: $width_4;
+	height: $height_4;
+//	background-size: $width_4 $height_4;
+}

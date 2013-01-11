@@ -2,12 +2,12 @@
 	<h6><%= talk.from %> - <%= talk.until %></h6>
 </div>
 <div class="entry-mainwrapper talk">
-	<h3>
+	<h3 style="margin-bottom: 3px;">
 		<%= talk.title %>
-		<% talk.tags.each do |tag| %>
+	</h3>
+	<% talk.tags.each do |tag| %>
 			<span class="tag"><%= tag %></span>
 		<% end %>
-	</h3>
 	
 	<p><%= talk.abstract %></p>
 
