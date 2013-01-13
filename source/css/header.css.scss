@@ -19,7 +19,7 @@ header {
 	#logo {
 		@include at-breakpoint(1em 12) { position: absolute; top: 30px; left: 0; right: 0; background-size: auto 100%; background-position: 50%;}
 		@include at-breakpoint(60em 12) { position: relative; @include span-columns(4,12); background-position: 90% 100%; background-size: 100%;}
-		background-image: url('../img/logotipo_horizontal_s_fundo.png');
+		background-image: url('../img/logotipo_horizontal_s_fundo_cropped.png');
 		background-repeat: no-repeat;
 		height: $logoHeight;
 		margin-top: -$logoHeight/4.0;
