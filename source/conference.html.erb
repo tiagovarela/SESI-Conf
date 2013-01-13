@@ -10,12 +10,10 @@
 	<section id="timeline-wrapper">
 		<% data.talks.each do |entry| %>
 		<article class="<%= entry.type %> entry">
-			<% if entry.type == "talk" %>
+			<% if entry.type == "talk" or entry.type == "keynote" %>
 				<%= partial 'talk', locals: {talk: entry} %>
 			<% elsif entry.type == "coffeebreak" %>
 				<%= partial 'coffeebreak', locals: {entry: entry} %>
-			<% elsif entry.type == "keynote" %>
-				<%= partial 'talk', locals: {talk: entry} %> <%# TODO: create this partial %>
 			<% end %>
 		</article>
 		<% end %>

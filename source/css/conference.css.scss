@@ -1,4 +1,5 @@
 section#timeline-wrapper {
+	margin-bottom: 50px;
 	overflow: hidden;
 	article.entry {
 		overflow: hidden;
@@ -12,7 +13,7 @@ section#timeline-wrapper {
 			@include clearfix;
 			width: 75%;
 			float: left;
-			border-left: $borderSize solid rgba(0,0,0,0.4); 
+			border-left: $borderSize solid rgb(0, 141, 243); 
 			padding-left: 30px;
 			overflow: hidden;
 		}
@@ -21,7 +22,7 @@ section#timeline-wrapper {
 
 .tag { 
 	@include border-radius(5px);
-	@include background(linear-gradient(top, #aaa, #a5a5a5));
+	@include background(linear-gradient(top, #3C7AAA, #3676A8));
 	@include text-shadow(rgba(#333, 0.3) 1px 1px 0);
 	@include arvo;
 	padding: 3px 6px;
@@ -31,7 +32,7 @@ section#timeline-wrapper {
 }
 
 .darker {
-	background-color: rgba(0,0,0,0.1);;
+	background-color: rgba(0, 63, 96, 0.1);
 }
 
 
@@ -39,7 +40,7 @@ section.authors-wrapper {
 	article.author {
 		float: left;
 		width: 30%;
-		margin-right: 5%;
+		margin-right: 3%;
 		margin-bottom: 15px;
 		&:nth-child(3n) {margin-right: 0;}
 
@@ -50,15 +51,22 @@ section.authors-wrapper {
 		}
 		div.author-data {
 			display: inline-block;
-			padding-left: 15px;
+			padding-left: 10px;
 			@include clearfix;
 			img { float: left; margin: 0 3px; }
 		}
 	}
 }
 
+.keynote {
+	background-color: rgba(198, 60, 40, 0.3);
+}
+
 .coffeebreak { 
-	background-color: rgba(0,0,0,0.3); 
+	background-color: rgba(0, 63, 96, 0.3); 
 	margin: 5px 0px;
 }
 
+.speaker-anchor {
+	position:relative; top:-50px
+}

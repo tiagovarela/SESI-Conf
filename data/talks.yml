@@ -41,7 +41,8 @@
 
 - from: "14:30pm"
   until: "15:00pm"
-  type: talk
+  anchor: "vala"
+  type: keynote
   title: "TBA -- Your idea, their money"
   tags:
     - "Crowdfunding"
@@ -87,7 +88,8 @@
 
 - from: "15:15pm"
   until: "15:45pm"
-  type: talk
+  anchor: "cunha"
+  type: keynote
   title: "TBA -- Services"
   tags:
     - "TBA"
@@ -95,7 +97,7 @@
   abstract: |
             TBA
   authors:
-    - name: "João Falcão e Cunha"
+    - name: "J. Falcão e Cunha"
       image: "gen.jpg"
       social:
         - twitter: jferreira
@@ -131,7 +133,8 @@
 
 - from: "16:00pm"
   until: "16:30pm"
-  type: talk
+  anchor: "desport"
+  type: keynote
   title: "Software Engineering and Quality"
   tags:
     - "Software Quality"
@@ -174,7 +177,8 @@
 
 - from: "16:45pm"
   until: "17:15pm"
-  type: talk
+  anchor: "amaral"
+  type: keynote
   title: "TBA -- Gamification"
   tags:
     - "Gamification"
@@ -227,7 +231,8 @@
 
 - from: "17:45pm"
   until: "18:15pm"
-  type: talk
+  anchor: "gcosta"
+  type: keynote
   title: "TBA -- Data privacy."
   tags:
     - "Data Privacy"
@@ -272,7 +277,8 @@
 
 - from: "18:30pm"
   until: "19:00pm"
-  type: talk
+  anchor: "sidorenko"
+  type: keynote
   title: "TBA"
   tags:
     - "TBA"
