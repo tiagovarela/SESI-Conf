@@ -3,7 +3,7 @@
 @import "variables";
 
 header {
-	@include background(url('../img/feup-noisy-texture.png'));
+	@include background(url('../img/subtlepatterns/brillant/brillant.png'));
 	// section.top-info {
 	// 	width: 30%;
 	// 	padding: 20px 0;
@@ -17,11 +17,13 @@ header {
 	// 	}
 	// }
 	#logo {
-		@include at-breakpoint(1em 12) { position: absolute; top: 30px; left: 0; right: 0; }
-		@include at-breakpoint(60em 12) { position: relative; @include span-columns(4,12); background-position: 90% 100%; }
-		background: url('../img/logo') 50% 100% no-repeat;
+		@include at-breakpoint(1em 12) { position: absolute; top: 30px; left: 0; right: 0; background-size: auto 100%; background-position: 50%;}
+		@include at-breakpoint(60em 12) { position: relative; @include span-columns(4,12); background-position: 90% 100%; background-size: 100%;}
+		background-image: url('../img/logotipo_horizontal_s_fundo_cropped.png');
+		background-repeat: no-repeat;
 		height: $logoHeight;
-		margin-top: -15px;
+		margin-top: -$logoHeight/4.0;
+		margin-left: 20px;
 		text-indent: -9999px;
 	}
 	ul {
@@ -37,14 +39,14 @@ header {
 			text-align: center;
 			a {
 				@include unstyled-link;
-				@include link-colors(white, white, white, white, white); 
+				@include link-colors(#333, #333, #333, #333, #333); 
 				@include border-radius(3px);
-				@include text-shadow(0px 1px 1px #555);
+				@include text-shadow(0px 1px 1px #B8E0F8);
 				letter-spacing: 2px;
 				padding: 5px 7px;
 				@include transition-property(background);
 				@include transition-duration(.3s);
-				&:hover, &.active { background: rgba(255,255,255,0.5); }
+				&:hover, &.active { background: rgba(0, 141, 243, 0.6); }
 				&:active { position: relative; top: 2px; } // COOL TRICK: Links Feel Subtly More Button-Like!!
 			}
 		}

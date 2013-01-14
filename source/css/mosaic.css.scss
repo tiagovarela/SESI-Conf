@@ -23,15 +23,26 @@ $height_4: $width_4 * $height_ratio;
 	padding: 0;
 	@include border-radius(2px);
 	float: left;
+	position: relative;
 
 	text-align: center;
-	h1, h2 {
+
+	.name {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		background-color: #008DF3;
+		position: absolute; bottom: 0; left: 0;
+		@include border-bottom-radius(2px);
+	}
+
+	h1, h2, h3 {
 		margin: 0;
 		padding: 0;
+		
 		color: rgb(255,255,255);	
 		@include text-shadow( rgb(0,0,0) 3px 3px 8px);
 		display: inline-block;
-		vertical-align: middle;
 	}
 	
 }
@@ -58,4 +69,30 @@ $height_4: $width_4 * $height_ratio;
 	width: $width_4;
 	height: $height_4;
 //	background-size: $width_4 $height_4;
+}
+
+.bg0 {
+	background-color: #008DF3;
+}
+
+.bg1 { 
+	background-image: url('../img/speakers/keynote/alexey_big.png');
+	background-size: 100%;
+}
+.bg2 { 
+	background: url('../img/speakers/keynote/vala_medium.png');
+	background-size: 100%;
+}
+.bg3 { 
+	background: url('../img/speakers/keynote/desport_big.png');
+	background-size: 100%;
+}
+.bg4 { 
+	background: url('../img/speakers/keynote/cunha_big.png');
+	background-size: 100%;
+}
+.bg5 { background: url('../img/subtlepatterns/natural_paper/natural_paper.png'); }
+.bg6 { 
+	background: url('../img/speakers/keynote/norberto_big.png');
+	background-size: 100%;
 }
