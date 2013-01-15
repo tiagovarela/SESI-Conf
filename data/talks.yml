@@ -41,21 +41,17 @@
   until: "15:00pm"
   anchor: "vala"
   type: keynote
-  title: "TBA -- Your idea, their money"
+  title: "Tabletip Games - a crowd funding story"
   tags:
     - "Crowdfunding"
     - "Money"
     - "Network"
 
   abstract: |
-            TBA -- Tabletip Games
+            Tabletip Games is a portuguese startup that recently released the card game Vem aí a Troika! The talk is about our experience with crowd funding and how we used it to help us develop and promote the game. We will go through topics like the initial idea, the crowd funding platform, the importance of social media, legal aspects, and what lessons have we learned.
   authors:
     - name: "Marco Vala"
-      image: "gen.jpg"
-      social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
+      image: "vala.png"
 
 - from: "15:00pm"
   until: "15:15pm"
