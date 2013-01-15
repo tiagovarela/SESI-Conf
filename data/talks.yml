@@ -68,17 +68,12 @@
             How much information have you right now in your pocket?
   authors:
     - name: "Luís Gomes"
-      image: "gen.jpg"
+      image: "gomes.jpg"
       social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
+        - twitter: twitter.com/luisgomestube
     - name: "Luís Dias"
       image: "gen.jpg"
       social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
 
 - from: "15:15pm"
   until: "15:45pm"
