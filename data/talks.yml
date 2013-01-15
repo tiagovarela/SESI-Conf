@@ -8,11 +8,6 @@
   abstract: ""
   authors:
     - name: "Raul Vidal"
-      image: "gen.jpg"
-      social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
 
 - from: "14:15pm"
   until: "14:30pm"
@@ -72,8 +67,6 @@
       social:
         - twitter: luisgomestube
     - name: "Luís Dias"
-      image: "gen.jpg"
-      social:
 
 - from: "15:15pm"
   until: "15:45pm"
@@ -87,11 +80,6 @@
             TBA
   authors:
     - name: "J. Falcão e Cunha"
-      image: "gen.jpg"
-      social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
 
 - from: "15:45pm"
   until: "16:00pm"
@@ -108,17 +96,7 @@
             Our personal goal is to encourage the audience to embrace MOOC and try them as soon as they find a computer available.
   authors:
     - name: "João Figueiredo"
-      image: "gen.jpg"
-      social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
     - name: "Tiago Varela"
-      image: "gen.jpg"
-      social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
 
 - from: "16:00pm"
   until: "16:30pm"
@@ -132,11 +110,6 @@
             TBA
   authors:
     - name: "Luís Desport"
-      image: "gen.jpg"
-      social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
 
 - from: "16:30pm"
   until: "16:45pm"
@@ -152,17 +125,7 @@
             The goal here is to achieve a high level of adaptation to society evolution and needs at the same time we grant them access to new skills to aproach their own success.
   authors:
     - name: "João Carvalho"
-      image: "gen.jpg"
-      social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
     - name: "Ricardo Amorim"
-      image: "gen.jpg"
-      social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
 
 - from: "16:45pm"
   until: "17:15pm"
@@ -176,11 +139,6 @@
             TBA
   authors:
     - name: "Norberto Amaral"
-      image: "gen.jpg"
-      social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
 
 - from: "17:15pm"
   until: "17:30pm"
@@ -203,20 +161,12 @@
     - name: "Joel Ferreira"
       image: "gen.jpg"
       social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
+        - twitter: joelfferreira
     - name: "Pedro Pontes"
-      image: "ambe.png"
+      image: "pontes.jpg"
       social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
+        - twitter: p_pontes
     - name: "Gonçalo Araújo"
-      social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
 
 - from: "17:45pm"
   until: "18:15pm"
@@ -233,11 +183,6 @@
             TBA
   authors:
     - name: "Graça Costa"
-      image: "gen.jpg"
-      social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
 
 - from: "18:15pm"
   until: "18:30pm"
@@ -259,11 +204,6 @@
         - website: http://paginas.fe.up.pt/~ei08106/
         - email: andrebcmarinho@gmail.com
     - name: "João Ferreira"
-      image: "gen.jpg"
-      social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
 
 - from: "18:30pm"
   until: "19:00pm"
@@ -277,11 +217,6 @@
             TBA
   authors:
     - name: "Alexey Sidorenko"
-      image: "gen.jpg"
-      social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
 
 - from: "19:90pm"
   until: "19:15pm"
@@ -293,14 +228,4 @@
   abstract: ""
   authors:
     - name: "Raul Vidal"
-      image: "gen.jpg"
-      social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
     - name: "Ademar Aguiar"
-      image: "gen.jpg"
-      social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira

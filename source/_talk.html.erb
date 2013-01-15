@@ -19,7 +19,7 @@
 				<% if author.image %>
 					<img src="./img/speakers/<%= author.image %>" width="50">
 				<% else %>
-					<img src="./img/speakers/gen.jpg" width="50">
+					<%= place_img("60x80") %>
 				<% end %>
 				
 			</div>
@@ -32,7 +32,16 @@
 								<%= place_img("20x20") %>
 							</a>
 						<% end %>
-						<%= place_img("20x20") if s.facebook %>	
+						<% if s.facebook %>
+							<a href="<%= s.facebook %>">
+								<%= place_img("20x20") %>
+							</a>
+						<% end %>
+						<% if s.website %>
+							<a href="<%= s.website %>">
+								<%= place_img("20x20") %>
+							</a>
+						<% end %>
 						<%= place_img("20x20") if s.email %>	
 					<% end %>
 				<% end %>
