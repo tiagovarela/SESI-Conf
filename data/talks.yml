@@ -67,6 +67,9 @@
       social:
         - twitter: luisgomestube
     - name: "Luís Dias"
+      image: "dias.png"
+      social:
+        - email: lcdias127@gmail.com
 
 - from: "15:15pm"
   until: "15:45pm"
