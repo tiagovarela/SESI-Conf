@@ -27,9 +27,13 @@
 				<span><%= author.name %></span><br>
 				<% if author.social %>
 					<% author.social.each do |s| %>
-						<%= place_img("20x20") if s.twitter %>	
+						<% if s.twitter %>
+							<a href="<%= 'http://' + s.twitter %>">
+								<%= place_img("20x20") %>
+							</a>
+						<% end %>
 						<%= place_img("20x20") if s.facebook %>	
-						<%= place_img("20x20") if s.linkedin %>	
+						<%= place_img("20x20") if s.email %>	
 					<% end %>
 				<% end %>
 			</div>

@@ -27,17 +27,15 @@
             We will expose the concept behind crowd funding networks. The talk will cover topics ranging from 5/6 good examples of success projects (and respective networks) to explaining how you can become one of them with your idea, and their money.
   authors:
     - name: "Hélder Moreira"
-      image: "gen.jpg"
+      image: "moreira.jpg"
       social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
+        - twitter: twitter.com/helderasmoreira 
+        - email: heldersantos.moreira@gmail.com
     - name: "Tiago Babo"
-      image: "gen.jpg"
+      image: "babo.jpg"
       social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
+        - twitter: twitter.com/tiagobabo
+        - email: tiago.babo@gmail.com
 
 - from: "14:30pm"
   until: "15:00pm"
