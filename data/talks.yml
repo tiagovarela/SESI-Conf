@@ -29,12 +29,12 @@
     - name: "Hélder Moreira"
       image: "moreira.jpg"
       social:
-        - twitter: twitter.com/helderasmoreira 
+        - twitter: helderasmoreira 
         - email: heldersantos.moreira@gmail.com
     - name: "Tiago Babo"
       image: "babo.jpg"
       social:
-        - twitter: twitter.com/tiagobabo
+        - twitter: tiagobabo
         - email: tiago.babo@gmail.com
 
 - from: "14:30pm"
@@ -70,7 +70,7 @@
     - name: "Luís Gomes"
       image: "gomes.jpg"
       social:
-        - twitter: twitter.com/luisgomestube
+        - twitter: luisgomestube
     - name: "Luís Dias"
       image: "gen.jpg"
       social:
@@ -252,11 +252,12 @@
             In this talk, we will analyze in what way the Web 2.0 and social networks in particular have changed companies marketing plans in the past few years, ie, understand why is it so important for companies to be on facebook and other social networks, analyze cases of success and failure and from that draw some conclusions about the best practices that companies should follow.
   authors:
     - name: "André Marinho"
-      image: "gen.jpg"
+      image: "marinho.jpg"
       social:
-        - twitter: jferreira
-        - facebook: jferreira
-        - linkedin: jferreira
+        - twitter: andre_marinho
+        - facebook: http://facebook.com/andremarinho
+        - website: http://paginas.fe.up.pt/~ei08106/
+        - email: andrebcmarinho@gmail.com
     - name: "João Ferreira"
       image: "gen.jpg"
       social:
