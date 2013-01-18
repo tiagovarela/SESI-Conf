@@ -19,7 +19,7 @@ require 'susy'
 # 
 # With no layout
 with_layout :layout do
-  page "conference"
+  page "program"
   page "registration"
   page "sponsors"
   page "guide"

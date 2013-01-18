@@ -1,9 +1,9 @@
 <%= "<a class='speaker-anchor' id='#{talk.anchor}'>&nbsp;</a>" if talk.anchor %>
 <div class="timeline-sidebar">
-	<h6><%= talk.from %> - <%= talk.until %></h6>
+	<%= partial 'hour', locals: {from: talk.from, muntil: talk.until} %>
 </div>
 <div class="entry-mainwrapper talk">
-	<h3 style="margin-bottom: 3px;">
+	<h3 class="no-margin">
 		<%= talk.title %>
 	</h3>
 	<% talk.tags.each do |tag| %>
@@ -24,7 +24,15 @@
 				
 			</div>
 			<div class="author-data">
-				<span><%= author.name %></span><br>
+				<h4 class="no-margin"><%= author.name %></h4>
+				<p class="no-margin"><small>
+				<% if author.description %>
+					<%= author.description %>
+				<% else %>
+					<%= lorem.sentence %>
+				<% end %>
+				</small></p>
+
 				<% if author.social %>
 					<% author.social.each do |s| %>
 						<% if s.twitter %>

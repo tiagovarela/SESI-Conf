@@ -1,5 +1,5 @@
 <div class="timeline-sidebar">
-	<h6><%= entry.from %> - <%= entry.until %></h6>
+	<%= partial 'hour', locals: {from: entry.from, muntil: entry.until} %>
 </div>
 <div class="entry-mainwrapper">
 	<h3>Coffee break</h3>

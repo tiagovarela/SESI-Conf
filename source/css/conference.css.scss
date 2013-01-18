@@ -6,8 +6,23 @@ section#timeline-wrapper {
 		div.timeline-sidebar {
 			width: 15%;
 			float: left;
-			padding: 0 10px;
+			padding: 10px;
 			overflow: hidden;
+			.talk-hour, .talk-hour-separator {
+				@include ubuntu;
+				@include caps;
+				width: 100%;
+				font-size: 1.1em;
+				line-height: 1.6em;
+				color: #7E7C75;
+				padding: 1px 0;
+				
+			}
+			.talk-hour {
+				border-bottom: 4px $c1 solid;
+			}
+			
+
 		}
 		div.entry-mainwrapper {
 			@include clearfix;
@@ -15,6 +30,8 @@ section#timeline-wrapper {
 			float: left;
 			border-left: $borderSize solid rgb(0, 141, 243); 
 			padding-left: 30px;
+			padding-top: 15px;
+			padding-bottom: 15px;
 			overflow: hidden;
 		}
 	}
@@ -37,33 +54,37 @@ section#timeline-wrapper {
 
 
 section.authors-wrapper {
+	margin-top: 25px;
 	article.author {
 		float: left;
-		width: 30%;
-		margin-right: 3%;
+		width: 45%;
+		margin-right: 5%;
 		margin-bottom: 15px;
-		&:nth-child(3n) {margin-right: 0;}
+		&:nth-child(2n) {margin-right: 0;}
 
 		div.author-image {
-			width: 50px;
-			display: inline-block;
-			vertical-align: top;
+			width: 20%;
+			float: left;
+			// display: inline-block;
+			// vertical-align: top;
 		}
 		div.author-data {
-			display: inline-block;
-			padding-left: 10px;
+			// display: inline-block;
+			width: 75%;
+			padding-left: 5%;
 			@include clearfix;
+
 			img { float: left; margin: 0 3px; }
 		}
 	}
 }
 
 .keynote {
-	background-color: rgba(198, 60, 40, 0.3);
+	background-color: rgba($c1, 0.3);
 }
 
 .coffeebreak { 
-	background-color: rgba(0, 63, 96, 0.3); 
+	background-color: rgba(0, 63, 96, 0.1); 
 	margin: 5px 0px;
 }
 
