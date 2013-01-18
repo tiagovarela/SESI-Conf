@@ -1,11 +1,11 @@
 $(function() {
 	$('#timeline-wrapper article.entry:first').addClass('darker');
 
-	$('#mosaic-wrapper').masonry({
+	$('.mosaic-wrapper').masonry({
         // options
         itemSelector: '.box',
         isFitWidth: true,
-        columnWidth: 129
+        columnWidth: 156
     });
 
 	$.each($('header nav ul li a'), function(index, value) {

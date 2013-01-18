@@ -1,4 +1,4 @@
-$width_1: 256px;
+$width_1: 310px;
 $width_2: 0.5 * $width_1;
 $width_3: 0.25 * $width_1;
 $width_4: 0.0625 * $width_1;
@@ -9,7 +9,7 @@ $height_2: $width_2 * $height_ratio;
 $height_3: $width_3 * $height_ratio;
 $height_4: $width_4 * $height_ratio;
 
-#mosaic-wrapper {
+.mosaic-wrapper {
 	width: 100%;
 	text-align: left;
 	padding: 0;
@@ -36,14 +36,14 @@ $height_4: $width_4 * $height_ratio;
 		@include border-bottom-radius(2px);
 	}
 
-	h1, h2, h3 {
-		margin: 0;
-		padding: 0;
-		
+	.big, .small {
+		margin: 5px 0;
+		@include arvo;
+		@include caps;
 		color: rgb(255,255,255);	
-		@include text-shadow( rgb(0,0,0) 3px 3px 8px);
-		display: inline-block;
 	}
+	.big { font-size: 1.2em; }
+	.small { font-size: 0.9em;}
 	
 }
 

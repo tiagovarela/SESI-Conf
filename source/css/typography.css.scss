@@ -21,6 +21,18 @@
 }
 
 * { color: #333; }
+
+// body {
+//     font-size:100%;
+//     line-height:1.125em; /* 16×1.125=18 */
+// }
+// h1 { font-size:2.25em;  /* 16x2.25=36 */ }
+// h2 { font-size:1.5em;   /* 16x1.5=24 */ }
+// h3 { font-size:1.125em; /* 16x1.125=18 */ }
+// h4 { font-size:0.875em; /* 16x0.875=14 */ }
+// p { font-size:1em; /* 16x1=16 */ }
+
+
 h1, h2, h3, h4, h5, h6, p, a, li, span {
 	text-shadow:0 0 0 #f00, 0 0 1px transparent;
 	text-rendering: optimizeLegibility;
@@ -33,6 +45,11 @@ h1, h2, h3, h4, h5, h6 {
 p {
 	@include ubuntu;
 	font-weight: 300;
+}
+
+@mixin caps {
+	text-transform:uppercase;
+	letter-spacing: 2px;
 }
 
 
