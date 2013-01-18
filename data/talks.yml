@@ -128,6 +128,11 @@
             The goal here is to achieve a high level of adaptation to society evolution and needs at the same time we grant them access to new skills to aproach their own success.
   authors:
     - name: "João Carvalho"
+      image: "carvalho.jpg"
+      social:
+        - twitter: jocaccarvalho
+        - facebook: http://fb.com/joca.c.carvalho
+        - skype: joca.c.carvalho
     - name: "Ricardo Amorim"
 
 - from: "16:45pm"
