@@ -120,6 +120,9 @@
     - name: "Tiago Varela"
       description: "He's into indie games, physical hacking, and formula 1."
       image: "varela.png"
+      social:
+        - twitter: tiagovarela
+        - website: http://tiagovarela.com
 
 - from: "16:00"
   until: "16:30"
