@@ -75,24 +75,50 @@ $height_4: $width_4 * $height_ratio;
 	background-color: #008DF3;
 }
 
+
 .bg1 { 
-	background-image: url('../img/speakers/keynote/alexey_big.png');
+	background-image: url('../img/speakers/mosaic/alexey.png');
 	background-size: 100%;
+	&:hover { background-image: url('../img/speakers/mosaic/alexey-hover.png'); }
 }
+
 .bg2 { 
-	background: url('../img/speakers/keynote/vala_medium.png');
+	background-image: url('../img/speakers/mosaic/vala.png');
 	background-size: 100%;
+	&:hover { background-image: url('../img/speakers/mosaic/vala-hover.png'); }
 }
 .bg3 { 
-	background: url('../img/speakers/keynote/desport_big.png');
+	background-image: url('../img/speakers/mosaic/desport.png');
 	background-size: 100%;
+	&:hover { background-image: url('../img/speakers/mosaic/desport-hover.png'); }
 }
 .bg4 { 
-	background: url('../img/speakers/keynote/cunha_big.png');
+	background-image: url('../img/speakers/mosaic/jfc.png');
 	background-size: 100%;
+	&:hover { background-image: url('../img/speakers/mosaic/jfc-hover.png'); }
 }
+
 .bg5 { background: url('../img/subtlepatterns/natural_paper/natural_paper.png'); }
 .bg6 { 
-	background: url('../img/speakers/keynote/norberto_big.png');
+	background-image: url('../img/speakers/mosaic/norberto.png');
 	background-size: 100%;
+	&:hover { background-image: url('../img/speakers/mosaic/norberto-hover.png'); }
+}
+
+.bg10 { 
+	background-image: url('../img/speakers/mosaic/facebook.png');
+	background-size: 100%;
+	&:hover { background-image: url('../img/speakers/mosaic/facebook-hover.png'); }
+}
+
+.bg11 { 
+	background-image: url('../img/speakers/mosaic/twitter.png');
+	background-size: 100%;
+	&:hover { background-image: url('../img/speakers/mosaic/twitter-hover.png'); }
+}
+
+.bg12 { 
+	background-image: url('../img/speakers/mosaic/linda.png');
+	background-size: 100%;
+	&:hover { background-image: url('../img/speakers/mosaic/linda-hover.png'); }
 }

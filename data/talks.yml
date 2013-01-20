@@ -5,9 +5,11 @@
   tags:
     - "Let's get this party started!"
 
-  abstract: ""
+  abstract: "Public welcoming and introduction of the conference topics and program. "
   authors:
-    - name: "Raul Vidal"
+    - name: "Professor Raul Vidal"
+      image: "vidal.png"
+      description: "He is the current Director of Informatics Engineering Department (DEI), Associate Professor of DEI, and Cofounder and leader of Software Engineering R&D Lab of DEI."
 
 - from: "14:15"
   until: "14:30"
@@ -22,11 +24,13 @@
             We will expose the concept behind crowd funding networks. The talk will cover topics ranging from 5/6 good examples of success projects (and respective networks) to explaining how you can become one of them with your idea, and their money.
   authors:
     - name: "Hélder Moreira"
-      image: "moreira.jpg"
+      description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
+      image: "moreira.png"
       social:
         - twitter: helderasmoreira 
         - email: heldersantos.moreira@gmail.com
     - name: "Tiago Babo"
+      description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
       image: "babo.jpg"
       social:
         - twitter: tiagobabo
@@ -46,6 +50,7 @@
             Tabletip Games is a portuguese startup that recently released the card game Vem aí a Troika! The talk is about our experience with crowd funding and how we used it to help us develop and promote the game. We will go through topics like the initial idea, the crowd funding platform, the importance of social media, legal aspects, and what lessons have we learned.
   authors:
     - name: "Marco Vala"
+      description: "Marco Vala is ..."
       image: "vala.png"
 
 - from: "15:00"
@@ -63,10 +68,12 @@
             How much information have you right now in your pocket?
   authors:
     - name: "Luís Gomes"
+      description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
       image: "gomes.jpg"
       social:
         - twitter: luisgomestube
     - name: "Luís Dias"
+      description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
       image: "dias.png"
       social:
         - email: lcdias127@gmail.com
@@ -83,6 +90,7 @@
             TBA
   authors:
     - name: "J. Falcão e Cunha"
+      description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
 
 - from: "15:45"
   until: "16:00"
@@ -131,6 +139,7 @@
   authors:
     - name: "João Carvalho"
       image: "carvalho.jpg"
+      description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
       social:
         - twitter: jocaccarvalho
         - facebook: http://fb.com/joca.c.carvalho
@@ -149,6 +158,7 @@
             TBA
   authors:
     - name: "Norberto Amaral"
+      description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
 
 - from: "17:15"
   until: "17:30"
@@ -169,10 +179,12 @@
             In this talk we are going to answer these questions by analyzing the privacy policies of the most used services nowadays.
   authors:
     - name: "Joel Ferreira"
+      description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
       image: "gen.jpg"
       social:
         - twitter: joelfferreira
     - name: "Pedro Pontes"
+      description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
       image: "pontes.jpg"
       social:
         - twitter: p_pontes
@@ -193,6 +205,7 @@
             TBA
   authors:
     - name: "Graça Costa"
+      description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
 
 - from: "18:15"
   until: "18:30"
@@ -207,7 +220,8 @@
             In this talk, we will analyze in what way the Web 2.0 and social networks in particular have changed companies marketing plans in the past few years, ie, understand why is it so important for companies to be on facebook and other social networks, analyze cases of success and failure and from that draw some conclusions about the best practices that companies should follow.
   authors:
     - name: "André Marinho"
-      image: "marinho.jpg"
+      description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
+      image: "marinho.png"
       social:
         - twitter: andre_marinho
         - facebook: http://facebook.com/andremarinho
@@ -227,7 +241,8 @@
             TBA
   authors:
     - name: "Alexey Sidorenko"
-      description: "Alexey is an awesome dude. He formed many things, including the Answer to The Universe Foundation. He also loves cats, so you can chit-chat about that with him."
+      image: "alexey.png"
+      description: "Born in Moscow. Graduated from the Moscow State University and defended Ph.D thesis there. Currently finishing MA thesis in the Warsaw University, Poland. Worked in Carnegie Moscow Center from 2005 till 2008 in the “Society and Regions” programm. Warsaw-based head of Teplitsa of Social Technologies (Russia), former Global Voices editor."
 
 - from: "19:00"
   until: "19:15"
@@ -239,7 +254,9 @@
   abstract: "Final remarks about the conferece."
   authors:
     - name: "Raul Vidal"
-      description: "Raul Vidal Moreira info here. Bla Bla lorem ipsum, cats, and boomerangs."
+      description: "He is the current Director of Informatics Engineering Department (DEI), Associate Professor of DEI, and Cofounder and leader of Software Engineering R&D Lab of DEI."
+      image: "vidal.png"
     - name: "Ademar Aguiar"
-      description: "Ademar Aguiar (um carro) world war laser tag battle, featuring snoop dog and dolphins."
+      description: "He is Software Enginnering Professor at FEUP. He's interested in agile methodologies and education. He founded schooooools, a startup focusing on disrupting education."
+      image: "ademar.png"
 
