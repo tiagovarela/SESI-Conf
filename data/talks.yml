@@ -113,7 +113,7 @@
       social:
         - twitter: lucalanca
         - facebook: http://fb.com/lucalanca
-        - website: paginas.fe.up.pt/~ei08065
+        - website: http://paginas.fe.up.pt/~ei08065
         - skype: lucalanca
         - email: lucalanca2@hotmail.com
         - linkedin: http://www.linkedin.com/pub/jo%C3%A3o-figueiredo/44/61a/227
@@ -215,7 +215,7 @@
   until: "18:15"
   anchor: "cguerra"
   type: keynote
-  title: "TBA -- Data privacy."
+  title: "Make a bit – Protect Privacy!"
   tags:
     - "Data Privacy"
     - "Privacy Policies"
