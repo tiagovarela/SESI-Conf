@@ -36,21 +36,23 @@
 				<% if author.social %>
 					<% author.social.each do |s| %>
 						<% if s.twitter %>
-							<a href="<%= 'http://twitter.com/' + s.twitter %>">
-								<%= place_img("20x20") %>
-							</a>
+							<a href="<%= 'http://twitter.com/' + s.twitter %>" class="social twitter">Twitter</a>
 						<% end %>
 						<% if s.facebook %>
-							<a href="<%= s.facebook %>">
-								<%= place_img("20x20") %>
-							</a>
+							<a href="<%= s.facebook %>"  class="social facebook"></a>
 						<% end %>
 						<% if s.website %>
-							<a href="<%= s.website %>">
-								<%= place_img("20x20") %>
-							</a>
+							<a href="<%= s.website %>" class="social website">Website</a>
 						<% end %>
-						<%= place_img("20x20") if s.email %>	
+						<% if s.email %>	
+							<a href="mailto:<%= s.email %>" class="social email">Email</a>
+						<% end %>
+						<% if s.skype %>	
+							<a href="http://myskype.info/<%= s.skype %>" class="social skype">skype</a>
+						<% end %>
+						<% if s.linkedin %>	
+							<a href="<%= s.linkedin %>" class="social linkedin">linkedin</a>
+						<% end %>
 					<% end %>
 				<% end %>
 			</div>

@@ -31,7 +31,7 @@
         - email: heldersantos.moreira@gmail.com
     - name: "Tiago Babo"
       description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
-      image: "babo.jpg"
+      image: "babo.png"
       social:
         - twitter: tiagobabo
         - email: tiago.babo@gmail.com
@@ -69,7 +69,7 @@
   authors:
     - name: "Luís Gomes"
       description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
-      image: "gomes.jpg"
+      image: "gomes.png"
       social:
         - twitter: luisgomestube
     - name: "Luís Dias"
@@ -89,8 +89,9 @@
   abstract: |
             TBA
   authors:
-    - name: "J. Falcão e Cunha"
-      description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
+    - name: "João Falcão e Cunha"
+      description: "He has been a Professor at FEUP for over 25 years. He is currently a Member of the Executive Committee at ERCIM."
+      image: "cunha.png"
 
 - from: "15:45"
   until: "16:00"
@@ -108,8 +109,17 @@
   authors:
     - name: "João Figueiredo"
       description: "He likes building products, startups, and the web (he was born in it)."
+      image: "figueiredo.png"
+      social:
+        - twitter: lucalanca
+        - facebook: http://fb.com/lucalanca
+        - website: paginas.fe.up.pt/~ei08065
+        - skype: lucalanca
+        - email: lucalanca2@hotmail.com
+        - linkedin: http://www.linkedin.com/pub/jo%C3%A3o-figueiredo/44/61a/227
     - name: "Tiago Varela"
       description: "He's into indie games, physical hacking, and formula 1."
+      image: "varela.png"
 
 - from: "16:00"
   until: "16:30"
@@ -123,6 +133,8 @@
             TBA
   authors:
     - name: "Luís Desport"
+      description: "He is the CEO and cofounder Maincheck. He is currently the Secretary General of PSTQB — Associação Portuguesa de Testes de Software."
+      image: "desport.png"
 
 - from: "16:30"
   until: "16:45"
@@ -138,13 +150,15 @@
             The goal here is to achieve a high level of adaptation to society evolution and needs at the same time we grant them access to new skills to aproach their own success.
   authors:
     - name: "João Carvalho"
-      image: "carvalho.jpg"
+      image: "carvalho.png"
       description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
       social:
         - twitter: jocaccarvalho
         - facebook: http://fb.com/joca.c.carvalho
         - skype: joca.c.carvalho
     - name: "Ricardo Amorim"
+      description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
+      image: "amorim.png"
 
 - from: "16:45"
   until: "17:15"
@@ -158,7 +172,8 @@
             TBA
   authors:
     - name: "Norberto Amaral"
-      description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
+      description: "He is the co-organizer of TEDxO'Porto and Vice President of Education at a local chapter of Toastmasters."
+      image: "amaral.png"
 
 - from: "17:15"
   until: "17:30"
@@ -180,19 +195,21 @@
   authors:
     - name: "Joel Ferreira"
       description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
-      image: "gen.jpg"
+      image: "joel.png"
       social:
         - twitter: joelfferreira
     - name: "Pedro Pontes"
       description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
-      image: "pontes.jpg"
+      image: "pontes.png"
       social:
         - twitter: p_pontes
     - name: "Gonçalo Araújo"
+      description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
+      image: "araujo.png"
 
 - from: "17:45"
   until: "18:15"
-  anchor: "gcosta"
+  anchor: "cguerra"
   type: keynote
   title: "TBA -- Data privacy."
   tags:
@@ -204,8 +221,9 @@
   abstract: |
             TBA
   authors:
-    - name: "Graça Costa"
-      description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
+    - name: "Clara Guerra"
+      description: "Description will be given shortly."
+      image: "guerra.png"
 
 - from: "18:15"
   until: "18:30"
@@ -228,6 +246,8 @@
         - website: http://paginas.fe.up.pt/~ei08106/
         - email: andrebcmarinho@gmail.com
     - name: "João Ferreira"
+      description: "He is currently finishing is Master's in Software Engineering and is one of the organizers of the conference."
+      image: "ferreira.png"
 
 - from: "18:30"
   until: "19:00"

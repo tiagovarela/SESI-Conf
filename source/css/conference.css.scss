@@ -65,7 +65,18 @@ section#timeline-wrapper {
 		&:nth-child(2n) {margin-right: 0;}
 
 		.author-image { width: 65px; float: left; }
-		.author-data { width: 230px; float: left; padding-left: 5px; }
+		.author-data { width: 230px; float: left; padding-left: 5px; 
+
+
+			.facebook {background: url("../img/facebook-icon.png") no-repeat;}
+			.twitter {background: url("../img/twitter-icon.png") no-repeat;}
+			.website {background: url("../img/website-icon.png") no-repeat;}
+			.email {background: url("../img/email-icon.png") no-repeat;}
+			.skype {background: url("../img/skype-icon.png") no-repeat;}
+			.linkedin {background: url("../img/linkedin-icon.png") no-repeat;}
+			.social {width: 20px; height: 20px; overflow: hidden; display: block; text-indent: -9999px;
+white-space: nowrap; float: left; margin-right: 3px; margin-top: 10px; }
+		}
 	}
 }
 
