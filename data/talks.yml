@@ -81,15 +81,15 @@
   until: "15:45"
   anchor: "cunha"
   type: keynote
-  title: "TBA -- Services"
+  title: "Service Enginnering"
   tags:
-    - "TBA"
+    - "services"
 
   abstract: |
-            TBA
+            In this keynote, J. Falcão e Cunha will introduce some insights that come from his theoretical and experimental work in Software Engineering and Information Systems for the past 20 years. 
   authors:
     - name: "João Falcão e Cunha"
-      description: "He has been a Professor at FEUP for over 25 years. He is currently a Member of the Executive Committee at ERCIM."
+      description: "João Falcão e Cunha is a lecturer and researcher at the School of Engineering of the University of Porto. He holds a PhD in Computing Science from Imperial College London (1989), a MSc in Operations Research from Cranfield University (1984) and a first degree in Electrical Engineering from the School of Engineering of the University of Porto (1983). <br><br>He is a member of the ACM and the IEEE - Computer Society. He has been involved with theoretical and experimental work in Software Engineering and Information Systems for the past 20 years. His research interests include decision support systems, graphical user interfaces, object-oriented modeling and service engineering and management. Currently he coordinates at FEUP the integrated master programme in Industrial Engineering and Management, and the master programme in Service Engineering and Management. He is a member of the Executive Committee of ERCIM, the European Research Consortium for Informatics and Mathematics, and the Academic Director of the IBM Center for Advanced Studies in Portugal (IBM CAS Portugal)."
       image: "cunha.png"
 
 - from: "15:45"
@@ -168,7 +168,7 @@
   until: "17:15"
   anchor: "amaral"
   type: keynote
-  title: "TBA -- Gamification"
+  title: "Gamification"
   tags:
     - "Gamification"
 
@@ -291,6 +291,7 @@
 - from: "21:00"
   until: "23:00"
   type: meetup
+  anchor: "linda"
   title: "Speednetworking Meetup"
   tags:
     - "Meetup, speednetworking, fun"
