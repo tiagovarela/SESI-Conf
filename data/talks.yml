@@ -162,7 +162,7 @@
       description: "He is currently finishing his Master's in Software Engineering and is one of the organizers of the conference."
       image: "amorim.png"
       social:
-        - facebook: facebook.com/ricardo.amorim.161
+        - facebook: http://facebook.com/ricardo.amorim.161
 
 - from: "16:45"
   until: "17:15"
@@ -255,7 +255,7 @@
       description: "He is currently finishing his Master's in Software Engineering and is one of the organizers of the conference."
       image: "ferreira.png"
       social:
-        - facebook: fb.com/joao.ferreira.7906
+        - facebook: https://www.facebook.com/joao.ferreira.7906
 
 - from: "18:30"
   until: "19:00"
@@ -303,5 +303,5 @@
       social:
         - skype: Copylinda
         - twitter: Copylinda
-        - facebook: http://fb.com/https://www.facebook.com/copylinda
+        - facebook: https://www.facebook.com/copylinda
 
