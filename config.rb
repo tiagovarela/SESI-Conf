@@ -84,11 +84,11 @@ helpers do
 
   def eventbrite_minimal
     %{
-      <div style="width:50%; margin: 0 auto; text-align:left;" >
+      <div style="width:50%; margin: 0 auto; text-align:left;overflow: hidden;" >
         <iframe  
           src="http://www.eventbrite.com/tickets-external?eid=4798698035&ref=etckt&v=2" 
           frameborder="0" 
-          height="230" 
+          height="330" 
           width="100%" 
           vspace="0" 
           hspace="0" 

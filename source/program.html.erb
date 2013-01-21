@@ -11,7 +11,9 @@
 		<% data.talks.each do |entry| %>
 		<article class="<%= entry.type %> entry">
 			<% if entry.type == "talk" or entry.type == "keynote" %>
-				<%= partial 'talk', locals: {talk: entry} %>
+				<%= partial 'talk', locals: {talk: entry, meetup: false} %>
+			<% elsif entry.type == "meetup"%>
+				<%= partial 'talk', locals: {talk: entry, meetup: true} %>
 			<% elsif entry.type == "coffeebreak" %>
 				<%= partial 'coffeebreak', locals: {entry: entry} %>
 			<% end %>

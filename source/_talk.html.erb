@@ -15,15 +15,15 @@
 	<section class="authors-wrapper">
 	<% talk.authors.each do |author| %>
 		<article class="author <%= 'one-speaker' if talk.authors.count == 1 %>">
-			<div class="author-image">
+			<div class="author-image" <%= 'style="width: 150px;"' if meetup %>>
 				<% if author.image %>
-					<img src="./img/speakers/<%= author.image %>" width="60">
+					<img src="./img/speakers/<%= author.image %>" <%= 'width="60"' if !meetup %>>
 				<% else %>
 					<%= place_img("60x80") %>
 				<% end %>
 				
 			</div>
-			<div class="author-data">
+			<div class="author-data" <%= 'style="width: 500px !important;"' if meetup %>>
 				<h4 class="no-margin"><%= author.name %></h4>
 				<p class="no-margin"><small>
 				<% if author.description %>
