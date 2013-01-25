@@ -8,6 +8,7 @@
 	<h2>Schedule</h2>
 	
 	<section id="timeline-wrapper">
+		<div id="vertical-bar"></div>
 		<% data.talks.each do |entry| %>
 		<article class="<%= entry.type %> entry">
 			<% if entry.type == "talk" or entry.type == "keynote" %>
