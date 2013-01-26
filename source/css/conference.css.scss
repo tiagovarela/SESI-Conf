@@ -2,15 +2,15 @@ section#timeline-wrapper {
 	margin-bottom: 50px;
 	overflow: hidden;
 	position: relative;
-
-	#vertical-bar {
-		position: absolute;
-		left: 17%;
-		width: $borderSize;
-		height: 100%;
-		background-color: $c1;
+	@include at-breakpoint(35em 12) {
+		#vertical-bar {
+			position: absolute;
+			left: 17%;
+			width: $borderSize;
+			height: 100%;
+			background-color: $c1;
+		}
 	}
-
 	article.entry {
 		overflow: hidden;
 		margin-top: 10px;
