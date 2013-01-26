@@ -139,7 +139,22 @@
       image: "desport.png"
 
 - from: "16:30"
-  until: "16:45"
+  until: "17:00"
+  anchor: "amaral"
+  type: keynote
+  title: "Gamification"
+  tags:
+    - "Gamification"
+
+  abstract: |
+            Gamification has been a hot topic in the past few year. But what exactly is gamification? Why should we adopt it? What other players are adopting? In this keynote, Norberto Amaral will discuss this and related topics with gamification as common ground.
+  authors:
+    - name: "Norberto Amaral"
+      description: "He is the co-organizer of TEDxO'Porto and Vice President of Education at a local chapter of Toastmasters."
+      image: "amaral.png"
+
+- from: "17:00"
+  until: "17:15"
   type: talk
   title: "Gamifying Education"
   tags:
@@ -163,21 +178,6 @@
       image: "amorim.png"
       social:
         - facebook: http://facebook.com/ricardo.amorim.161
-
-- from: "16:45"
-  until: "17:15"
-  anchor: "amaral"
-  type: keynote
-  title: "Gamification"
-  tags:
-    - "Gamification"
-
-  abstract: |
-            Gamification has been a hot topic in the past few year. But what exactly is gamification? Why should we adopt it? What other players are adopting? In this keynote, Norberto Amaral will discuss this and related topics with gamification as common ground.
-  authors:
-    - name: "Norberto Amaral"
-      description: "He is the co-organizer of TEDxO'Porto and Vice President of Education at a local chapter of Toastmasters."
-      image: "amaral.png"
 
 - from: "17:15"
   until: "17:30"

@@ -1,8 +1,19 @@
 section#timeline-wrapper {
 	margin-bottom: 50px;
 	overflow: hidden;
+	position: relative;
+	@include at-breakpoint(35em 12) {
+		#vertical-bar {
+			position: absolute;
+			left: 17%;
+			width: $borderSize;
+			height: 100%;
+			background-color: $c1;
+		}
+	}
 	article.entry {
 		overflow: hidden;
+		margin-top: 10px;
 		div.timeline-sidebar {
 			width: 15%;
 			float: left;
@@ -28,7 +39,7 @@ section#timeline-wrapper {
 			@include clearfix;
 			width: 75%;
 			float: left;
-			border-left: $borderSize solid rgb(0, 141, 243); 
+			//border-left: $borderSize solid rgb(0, 141, 243); 
 			padding-left: 30px;
 			padding-top: 15px;
 			padding-bottom: 15px;
