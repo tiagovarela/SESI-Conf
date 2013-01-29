@@ -88,13 +88,13 @@ helpers do
         <iframe  
           src="http://www.eventbrite.com/tickets-external?eid=4798698035&ref=etckt&v=2" 
           frameborder="0" 
-          height="330" 
+          height="350" 
           width="100%" 
           vspace="0" 
           hspace="0" 
           marginheight="5" 
           marginwidth="5" 
-          scrolling="auto" 
+          scrolling="no" 
           allowtransparency="true">
         </iframe>
     }

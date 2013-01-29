@@ -127,12 +127,13 @@
   until: "16:30"
   anchor: "desport"
   type: keynote
-  title: "Software Engineering and Quality"
+  title: "What a software tester really does?"
   tags:
     - "Software Quality"
 
   abstract: |
-            TBA
+            The role of a tester is to identify what is wrong, analyse the impact and flag that issue to be fixed. Is that it?
+            <br>Luís will share his findings about the challenges a software tester faces on very different companies such as a startup (Mobicomp), a multinational software corporation (Microsoft) and an independent software testing agency (Maincheck).
   authors:
     - name: "Luís Desport"
       description: "He is the CEO and cofounder Maincheck. He is currently the Secretary General of PSTQB — Associação Portuguesa de Testes de Software."
