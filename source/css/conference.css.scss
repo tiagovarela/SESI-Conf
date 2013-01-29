@@ -91,6 +91,11 @@ white-space: nowrap; float: left; margin-right: 3px; margin-top: 10px; }
 	}
 }
 
+.no-link-style {
+	@include unstyled-link;
+	@include link-colors(#333, #333, #333, #333, #333); 
+}
+
 .keynote { background-color: rgba($c1, 0.3) }
 
 .coffeebreak { background-color: rgba($c1, 0.1);  margin: 5px 0px; }
