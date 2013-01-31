@@ -262,16 +262,18 @@
   until: "19:00"
   anchor: "sidorenko"
   type: keynote
-  title: "TBA"
+  title: "Bullet and the Shield: Freedom and Censorship Competition in the Digital Era"
   tags:
-    - "TBA"
+    - "Censorship"
+    - "Digital freedom"
 
   abstract: |
-            TBA
+            In this closing keynote, Alexey will discuss the challenges the digital era brings us,
+            particularly the ones related to freedom and censorship.
   authors:
     - name: "Alexey Sidorenko"
       image: "alexey.png"
-      description: "Born in Moscow. Graduated from the Moscow State University and defended Ph.D thesis there. Currently finishing MA thesis in the Warsaw University, Poland. Worked in Carnegie Moscow Center from 2005 till 2008 in the “Society and Regions” programm. Warsaw-based head of Teplitsa of Social Technologies (Russia), former Global Voices editor."
+      description: "The director of <a class='no-link-style' href='http://te-st.ru'>Teplitsa</a> (Greenhouse) of Social Technologies. Born in Moscow. Graduated from the Moscow State University and defended Ph.D thesis there. Currently finishing MA thesis in the Warsaw University, Poland. Worked in Carnegie Moscow Center from 2005 till 2008 in the “Society and Regions” programm. Warsaw-based head of Teplitsa of Social Technologies (Russia), former Global Voices editor."
 
 - from: "19:00"
   until: "19:15"
@@ -286,7 +288,7 @@
       description: "He is the current Director of Informatics Engineering Department (DEI), Associate Professor of DEI, and Cofounder and leader of Software Engineering R&D Lab of DEI."
       image: "vidal.png"
     - name: "Ademar Aguiar"
-      description: "He is Software Enginnering Professor at FEUP. He's interested in agile methodologies and education. He founded schooooools, a startup focusing on disrupting education."
+      description: "He is Software Enginnering Professor at FEUP. He's interested in agile methodologies and education. He founded schoooools, a startup focusing on disrupting education."
       image: "ademar.png"
 
 - from: "21:00"
