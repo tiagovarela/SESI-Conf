@@ -226,10 +226,21 @@
     - "Free Services' trade-off"
 
   abstract: |
-            Clara Guerra works at CNPD - Comissão Nacional de Proteção de Dados. In this talk she'll discuss the current status of data privacy in Portugal.
+            Privacy is undoubtedly on world’s agenda. The increasing risks to privacy triggered by technological
+            developments raise much concern nowadays. Citizens’ rights are being violated every day, so it’s time
+            to rethink how we can better use technology in benefit of individuals while protecting them from abuse.
+            Privacy by Design is a key concept to this purpose. If technology raises the problem it can also provide the
+            solution. First be aware, then be creative!
   authors:
     - name: "Clara Guerra"
-      description: "Description will be given shortly."
+      description: |
+                    Clara Guerra is a senior consultant for International and Communication Affairs at the Portuguese Data Protection Authority (CNPD), where she works since 1997. She is a member of the Joint Supervisory
+                    Authorities of Europol, Schengen and Custom Information System since 2003, and also a member of the
+                    coordination supervision groups of Eurodac and VIS. She participates in several subgroups of the EU
+                    Data Protection Group (Article 29 Working Party) and in the Ibero-american Network of Data Protection
+                    (RIPD).<br>
+                    She coordinates DADUS Project, a raising awareness program for children at schools, promoted by
+                    CNPD. She is a regular speaker in national and international conferences and seminars. (Jan 2013).
       image: "guerra.png"
 
 - from: "18:15"
@@ -298,7 +309,7 @@
   title: "Speednetworking Meetup"
   tags:
     - "Meetup, speednetworking, fun"
-  abstract: "Join us in our Speednetworking Meetup with Linda Sandberg. The meeting poing? Downtown, at <a class='no-link-style' href='http://goo.gl/maps/it0vM' title='Café Progresso'><b>Café Progresso</b></a>. An informal and awesome place for networking and talk a bit."
+  abstract: "Join us in our Speednetworking Meetup with Linda Sandberg. The meeting poing? Downtown, at <a class='no-link-style' href='http://goo.gl/maps/it0vM' title='Café Progresso'><strong>Café Progresso</strong></a>. An informal and awesome place for networking and talk a bit."
   authors:
     - name: Linda Copylinda Sandberg
       description: 'Linda Sandberg, Community Manager Digidel 2013 (a campaign to raise digital inclusion in Sweden), Owner of Copylinda, Vice Chair ISOC-SE the Swedish Chapter of Internet Societys - our vision is "The Internet is for everyone!" Core team of Geek Girl Meetup (an un-conference for geeky girls interested in web, code and business development. Our goal is to create new networks and elevate female role models in the industry. And have fun of course.)  Member of DFRI (We work against censorship, limitations on freedom of speech and privacy. Our goal is a society with the absolute minimum of surveillance, tracking and wiretapping).'
