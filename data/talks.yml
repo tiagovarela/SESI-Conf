@@ -127,12 +127,13 @@
   until: "16:30"
   anchor: "desport"
   type: keynote
-  title: "Software Engineering and Quality"
+  title: "What a software tester really does?"
   tags:
     - "Software Quality"
 
   abstract: |
-            TBA
+            The role of a tester is to identify what is wrong, analyse the impact and flag that issue to be fixed. Is that it?
+            <br>Luís will share his findings about the challenges a software tester faces on very different companies such as a startup (Mobicomp), a multinational software corporation (Microsoft) and an independent software testing agency (Maincheck).
   authors:
     - name: "Luís Desport"
       description: "He is the CEO and cofounder Maincheck. He is currently the Secretary General of PSTQB — Associação Portuguesa de Testes de Software."
@@ -225,10 +226,21 @@
     - "Free Services' trade-off"
 
   abstract: |
-            Clara Guerra works at CNPD - Comissão Nacional de Proteção de Dados. In this talk she'll discuss the current status of data privacy in Portugal.
+            Privacy is undoubtedly on world’s agenda. The increasing risks to privacy triggered by technological
+            developments raise much concern nowadays. Citizens’ rights are being violated every day, so it’s time
+            to rethink how we can better use technology in benefit of individuals while protecting them from abuse.
+            Privacy by Design is a key concept to this purpose. If technology raises the problem it can also provide the
+            solution. First be aware, then be creative!
   authors:
     - name: "Clara Guerra"
-      description: "Description will be given shortly."
+      description: |
+                    Clara Guerra is a senior consultant for International and Communication Affairs at the Portuguese Data Protection Authority (CNPD), where she works since 1997. She is a member of the Joint Supervisory
+                    Authorities of Europol, Schengen and Custom Information System since 2003, and also a member of the
+                    coordination supervision groups of Eurodac and VIS. She participates in several subgroups of the EU
+                    Data Protection Group (Article 29 Working Party) and in the Ibero-american Network of Data Protection
+                    (RIPD).<br>
+                    She coordinates DADUS Project, a raising awareness program for children at schools, promoted by
+                    CNPD. She is a regular speaker in national and international conferences and seminars. (Jan 2013).
       image: "guerra.png"
 
 - from: "18:15"
@@ -261,16 +273,18 @@
   until: "19:00"
   anchor: "sidorenko"
   type: keynote
-  title: "TBA"
+  title: "Bullet and the Shield: Freedom and Censorship Competition in the Digital Era"
   tags:
-    - "TBA"
+    - "Censorship"
+    - "Digital freedom"
 
   abstract: |
-            TBA
+            In this closing keynote, Alexey will discuss the challenges the digital era brings us,
+            particularly the ones related to freedom and censorship.
   authors:
     - name: "Alexey Sidorenko"
       image: "alexey.png"
-      description: "Born in Moscow. Graduated from the Moscow State University and defended Ph.D thesis there. Currently finishing MA thesis in the Warsaw University, Poland. Worked in Carnegie Moscow Center from 2005 till 2008 in the “Society and Regions” programm. Warsaw-based head of Teplitsa of Social Technologies (Russia), former Global Voices editor."
+      description: "The director of <a class='no-link-style' href='http://te-st.ru'>Teplitsa</a> (Greenhouse) of Social Technologies. Born in Moscow. Graduated from the Moscow State University and defended Ph.D thesis there. Currently finishing MA thesis in the Warsaw University, Poland. Worked in Carnegie Moscow Center from 2005 till 2008 in the “Society and Regions” programm. Warsaw-based head of Teplitsa of Social Technologies (Russia), former Global Voices editor."
 
 - from: "19:00"
   until: "19:15"
@@ -285,7 +299,7 @@
       description: "He is the current Director of Informatics Engineering Department (DEI), Associate Professor of DEI, and Cofounder and leader of Software Engineering R&D Lab of DEI."
       image: "vidal.png"
     - name: "Ademar Aguiar"
-      description: "He is Software Enginnering Professor at FEUP. He's interested in agile methodologies and education. He founded schooooools, a startup focusing on disrupting education."
+      description: "He is Software Enginnering Professor at FEUP. He's interested in agile methodologies and education. He founded schoooools, a startup focusing on disrupting education."
       image: "ademar.png"
 
 - from: "21:00"
@@ -295,7 +309,7 @@
   title: "Speednetworking Meetup"
   tags:
     - "Meetup, speednetworking, fun"
-  abstract: "Join us in our Speednetworking Meetup with Linda Sandberg. The meeting poing? Downtown, at <a class='no-link-style' href='http://goo.gl/maps/it0vM' title='Café Progresso'><b>Café Progresso</b></a>. An informal and awesome place for networking and talk a bit."
+  abstract: "Join us in our Speednetworking Meetup with Linda Sandberg. The meeting poing? Downtown, at <a class='no-link-style' href='http://goo.gl/maps/it0vM' title='Café Progresso'><strong>Café Progresso</strong></a>. An informal and awesome place for networking and talk a bit."
   authors:
     - name: Linda Copylinda Sandberg
       description: 'Linda Sandberg, Community Manager Digidel 2013 (a campaign to raise digital inclusion in Sweden), Owner of Copylinda, Vice Chair ISOC-SE the Swedish Chapter of Internet Societys - our vision is "The Internet is for everyone!" Core team of Geek Girl Meetup (an un-conference for geeky girls interested in web, code and business development. Our goal is to create new networks and elevate female role models in the industry. And have fun of course.)  Member of DFRI (We work against censorship, limitations on freedom of speech and privacy. Our goal is a society with the absolute minimum of surveillance, tracking and wiretapping).'
